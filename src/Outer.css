@@ -21,7 +21,7 @@
   height: 2px;
   margin-top: 4px;
   transition: all 0.4s ease-in-out;
-  background-color: #f1ac73;
+  background-color: #faca10;
 }
 
 .falseline1 {
@@ -42,7 +42,7 @@
   position: fixed;
   width: 100vw;
   height: 100vh !important;
-  background: #f1ac73;
+  background: #faca10;
   left: 0;
   top: 0;
   display: flex;
@@ -55,7 +55,7 @@
   position: absolute;
   width: 100vw;
   height: 100vh !important;
-  background: #f1ac73;
+  background: #faca10;
   left: -110%;
   top: 0;
   display: flex;
@@ -82,10 +82,35 @@
 }
 
 /* Hero */
+.logo {
+  width: 150px;
+}
 
 #Hero .bg_img {
   background-image: url(./assets/img/webp/webp.png);
   background-repeat: no-repeat;
   background-size: 853px 650px;
   background-position: 0 0;
+}
+
+/*  break-points */
+@media (max-width: 576px) {
+}
+@media (min-width: 576px) {
+}
+@media (min-width: 768px) {
+}
+@media (min-width: 992px) {
+  .logo {
+    width: 200px;
+    height: 37px;
+  }
+}
+@media (min-width: 1200px) {
+  .logo {
+    width: 253px;
+    height: 37px;
+  }
+}
+@media (min-width: 1440) {
 }
