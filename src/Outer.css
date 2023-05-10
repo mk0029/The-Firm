@@ -86,6 +86,6 @@
 #Hero .bg_img {
   background-image: url(./assets/img/webp/webp.png);
   background-repeat: no-repeat;
-  background-size: ;
-  background-position: 853px 650px;
+  background-size: 853px 650px;
+  background-position: 0 0;
 }
