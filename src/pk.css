@@ -1,0 +1,12 @@
+/* ============================ Clients =============================== */
+
+#clients .after_yellow_line::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 4px;
+  background-color: #fbda4e;
+  bottom: 6px;
+  z-index: -1;
+  left: 0;
+}
