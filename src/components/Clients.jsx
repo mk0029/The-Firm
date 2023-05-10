@@ -5,17 +5,17 @@ import client_img from "../assets/img/png/client-img.png";
 function Clients() {
   return (
     <>
-      <section className="py-5" id="clients">
+      <section className="py-5 bg_clr__lightWhite" id="clients">
         <div className="container">
           <div className="row align-items-center justify-content-between">
             <div className="col-md-6">
-              <h2 className=" ff_nunito fw-bolder mb-0">
+              <h2 className="ff_Nunito fs_4xxl fw_bolder mb-0">
                 Frustration of{" "}
                 <span className=" position-relative after_yellow_line">
                   Clients
                 </span>
               </h2>
-              <p className=" mb-0 mt-3 pt-1">
+              <p className=" ff_Lora fs_xl clr_light_black fw-normal mb-0 mt-3 pt-1 pe-md-5 me-md-3">
                 Lorem Ipsum is simply dummy text of the printing and typesetting
                 industry. Lorem Ipsum has been the industry's standard dummy
                 text ever since the 1500s,
