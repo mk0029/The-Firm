@@ -1,7 +1,13 @@
 import React from "react";
 
 function OurPartner() {
-  return <div>OurPartner</div>;
+  return (
+    <>
+      <section>
+        <div className="container"> </div>
+      </section>
+    </>
+  );
 }
 
 export default OurPartner;
