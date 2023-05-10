@@ -13,6 +13,8 @@
   font-family: "Nunito", sans-serif;
 }
 :root {
+  /*  */
+  --fw-bolder: 900;
   --fs-xsm: 10px;
   --fs-sm: 12px;
   --fs-md: 14px;
@@ -77,6 +79,10 @@
 }
 .clr_grey {
   color: var(--clr-grey);
+}
+/*  */
+.fw_bolder {
+  font-weight: var(--fw-bolder);
 }
 /* bg */
 .bg_clr_yellow {
