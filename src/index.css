@@ -32,7 +32,7 @@ span {
   --fs-3xl: 25px;
   --fs-4xl: 35px;
   --fs-4xxl: 33px;
-  --fs-5xl: 52px;
+  --fs-5xl: 38px;
   /* clr */
   --clr-light-black: #1e1e1e;
   --clr-dim-grey: #c4c4c4;
@@ -170,7 +170,7 @@ span {
     --fs-3xl: 22px;
     --fs-4xl: 40px;
     --fs-4xxl: 40px;
-    --fs-5xl: 52px;
+    --fs-5xl: 38px;
   }
 }
 @media (min-width: 768px) {
@@ -198,7 +198,7 @@ span {
     --fs-3xl: 20px;
     --fs-4xl: 40px;
     --fs-4xxl: 40px;
-    --fs-5xl: 52px;
+    --fs-5xl: 35px;
   }
 }
 @media (min-width: 1200px) {
@@ -212,7 +212,7 @@ span {
     --fs-3xl: 25px;
     --fs-4xl: 40px;
     --fs-4xxl: 44px;
-    --fs-5xl: 52px;
+    --fs-5xl: 42px;
   }
 }
 @media (min-width: 1400px) {

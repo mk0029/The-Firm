@@ -7,7 +7,7 @@ function DetailsIpsum() {
       <section className=" py-5 lorem_ipsum_bg" id="DetailIpsum">
         <div className="container py-lg-4">
           <h2 className=" ff_Nunito fw-bold fs_4xl clr_light_black mb-0">
-            Lorem{" "}
+            Lorem
             <span className=" position-relative after_yellow_line z_index3">
               Ipsum
             </span>
@@ -20,7 +20,7 @@ function DetailsIpsum() {
             Lorem Ipsum has been the industry's standard dummy text ever since
             the 1500s, when an unknown printer took. Lorem Ipsum is simply dummy
             text of the printing and typesetting industry. Lorem Ipsum is simply
-            dummy text of the printing and typesetting industry.{" "}
+            dummy text of the printing and typesetting industry.
           </p>
           <div className="d-flex align-items-start mt-sm-4 mt-3 pt-sm-2">
             <img
@@ -31,7 +31,7 @@ function DetailsIpsum() {
             <p className=" mb-0 ff_Lora fw-normal fs_xl clr_light_black ms-2 pe-lg-5">
               Loren rasion gravida auem is bibenua tase. Lorem ipsum is a
               placeholder text commonly used to demonstrate the visual form of a
-              document or a typeface without relying on meaningful content{" "}
+              document or a typeface without relying on meaningful content
             </p>
           </div>
           <div className="d-flex align-items-start mt-2">
