@@ -11,25 +11,29 @@ function ChoseUs() {
       imge: img,
       text1: "Market Research",
       text2:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry standard dummy text ever since the e",
+        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry standard dummy text ever since the 10000s, when an unknown printer took a galley of type",
+      btnData: "Read More",
     },
     {
       imge: img2,
       text1: "Branding",
       text2:
         "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry standard dummy text ever since the 1500s, when an unknown printer took a galley of type",
+      btnData: "Read More",
     },
     {
       imge: img3,
       text1: "Reporting",
       text2:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry standard dummy text ever since the a galley of type",
+        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry standard dummy text ever since the 130000s, when an unknown printer took a galley of type",
+      btnData: "Read More",
     },
     {
       imge: img4,
       text1: "Data Analysis",
       text2:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry standard dummy text ever since the  of type",
+        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry standard dummy text ever since the 100000s, when an unknown printer took a galley of type",
+      btnData: "Read More",
     },
   ];
 
@@ -129,7 +133,7 @@ function ChoseUs() {
                         {" "}
                         <h2
                           style={{ letterSpacing: "0.02em" }}
-                          className=" ff_Nunito fw-semibold fs_3xl clr_light_black mb-0 pb-3">
+                          className=" ff_Nunito fw-semibold fs_3xl clr_light_black mb-0 pb-3 after_yellow_line position-relative">
                           {imges[active].text1}
                         </h2>
                         <p
@@ -141,7 +145,7 @@ function ChoseUs() {
                           <a
                             className=" btn__Main_black transition300 d-inline-block bg_clr_Black"
                             href="">
-                            Read More
+                            {imges[active].btnData}
                           </a>
                         </span>
                       </div>
