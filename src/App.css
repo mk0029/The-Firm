@@ -1,5 +1,5 @@
 #OurPartner .Logos {
-  width: 240px;
+  width: 200px;
   -webkit-filter: grayscale(100%);
   filter: grayscale(100%);
 }
@@ -10,4 +10,134 @@
   border-radius: 20px;
   transform: scale(1.05);
   cursor: pointer;
+}
+
+#OurPartner .after_yellow_line::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 6px;
+  background-color: #fbda4e;
+  bottom: 12px;
+  z-index: -1;
+  left: 0;
+}
+#OurPartner .slick-prev:before {
+  content: "" !important;
+}
+#OurPartner .slick-next:before {
+  content: "" !important;
+}
+#OurPartner .slick-prev {
+  position: absolute;
+
+  width: 40px !important;
+  height: 40px !important;
+  background: url(./assets/img/png/Btn__Sider_Next.png) !important;
+  background-position: center !important;
+  background-repeat: no-repeat !important;
+  background-size: 100% 100% !important;
+  z-index: 1234 !important;
+  transform: rotate(180deg) translateY(50%);
+  top: 50% !important;
+  left: 0 !important;
+}
+#OurPartner .slick-next {
+  width: 40px !important;
+  height: 40px !important;
+  background: url(./assets/img/png/Btn__Sider_Next.png) !important;
+  background-position: center !important;
+  background-repeat: no-repeat !important;
+  background-size: 100% 100% !important;
+  z-index: 1234 !important;
+  top: 50% !important;
+  right: 0 !important;
+}
+#OurPartner .slick-prev:hover {
+  box-shadow: 0px 10px 40px -12px rgba(250, 202, 16, 0.35) !important;
+  border-radius: 50% !important;
+}
+#OurPartner .slick-next:hover {
+  box-shadow: 0px 10px 40px -12px rgba(250, 202, 16, 0.35) !important;
+  border-radius: 50% !important;
+}
+/* Choseus */
+#Choseus .btn_Choseus {
+  padding: 12px 14px;
+  /* width: 180px; */
+  min-width: 150px;
+  background: white;
+  position: relative;
+}
+#Choseus .btn_Choseus::after {
+  position: absolute;
+  content: "";
+  left: -20%;
+  top: 50%;
+  transform: translateY(-50%);
+  height: 2px;
+  width: 20%;
+  background-color: #f6f6f6;
+  transition: all 300ms ease-in-out;
+}
+#Choseus .btn_Choseus::before {
+  position: absolute;
+  content: "";
+  left: -22%;
+  top: 50%;
+  transform: translateY(-50%);
+  height: 22px;
+  width: 22px;
+  border-radius: 50%;
+  background-color: #f6f6f6;
+  transition: all 300ms ease-in-out;
+}
+#Choseus .btn_Choseus_hover {
+  color: white !important;
+  background-color: #faca10 !important;
+}
+#Choseus .btn_Choseus_hover::before {
+  background-color: #faca10 !important;
+}
+#Choseus .btn_Choseus_hover::after {
+  background-color: #faca10 !important;
+}
+#Choseus .Img_Shaddow {
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.25);
+  border-radius: 25px;
+}
+#Choseus div.bg-white:hover .Img_Shaddow {
+  box-shadow: -2px 2px 30px rgba(250, 202, 16, 0.4);
+}
+@media (min-width: 576px) {
+  #OurPartner .slick-prev {
+    transform: rotate(180deg) translate(72%, 50%);
+  }
+  #OurPartner .slick-next {
+    transform: translate(72%, -50%);
+  }
+}
+@media (min-width: 768px) {
+}
+@media (min-width: 992px) {
+}
+@media (min-width: 1200px) {
+  #OurPartner .Logos {
+    width: 240px;
+  }
+}
+@media (min-width: 1400px) {
+  #OurPartner .Logos {
+    width: 250px;
+  }
+  #OurPartner .slick-prev {
+    width: 50px !important;
+    height: 50px !important;
+    transform: rotate(180deg) translate(50%, 50%);
+  }
+  #OurPartner .slick-next {
+    width: 50px !important;
+    height: 50px !important;
+    transform: translate(50%, -50%);
+  }
 }

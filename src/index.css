@@ -12,6 +12,14 @@
 .ff_Nunito {
   font-family: "Nunito", sans-serif;
 }
+p,
+h1,
+h2,
+h3,
+h4,
+span {
+  letter-spacing: 0.02em;
+}
 :root {
   /*  */
   --fw-bolder: 900;
@@ -19,11 +27,11 @@
   --fs-sm: 12px;
   --fs-md: 14px;
   --fs-lg: 17px;
-  --fs-xl: 18px;
+  --fs-xl: 14px;
   --fs-2xl: 24px;
-  --fs-3xl: 30px;
+  --fs-3xl: 25px;
   --fs-4xl: 40px;
-  --fs-4xxl: 44px;
+  --fs-4xxl: 33px;
   --fs-5xl: 52px;
   /* clr */
   --clr-light-black: #1e1e1e;
@@ -67,6 +75,7 @@
 .fs_5xl {
   font-size: var(--fs-5xl);
 }
+
 /* clr */
 .clr_light_black {
   color: var(--clr-light-black);
@@ -109,6 +118,17 @@
 }
 .btn__Main:hover {
   background-color: var(--bg-black);
+  color: #ffff;
+}
+.btn__Main_black {
+  padding: 12px 30px;
+  background-color: var(--bg-black);
+  border-radius: 5px;
+  color: #ffff;
+}
+.btn__Main_black:hover {
+  background-color: var(--bg-yellow);
+  color: #ffff;
 }
 .transition250 {
   transition: all 250ms ease-in-out;
@@ -143,11 +163,11 @@
     --fs-sm: 12px;
     --fs-md: 14px;
     --fs-lg: 17px;
-    --fs-xl: 18px;
+    --fs-xl: 15px;
     --fs-2xl: 24px;
-    --fs-3xl: 30px;
+    --fs-3xl: 22px;
     --fs-4xl: 40px;
-    --fs-4xxl: 44px;
+    --fs-4xxl: 40px;
     --fs-5xl: 52px;
   }
 }
@@ -157,11 +177,11 @@
     --fs-sm: 12px;
     --fs-md: 14px;
     --fs-lg: 17px;
-    --fs-xl: 18px;
+    --fs-xl: 15px;
     --fs-2xl: 24px;
     --fs-3xl: 30px;
     --fs-4xl: 40px;
-    --fs-4xxl: 44px;
+    --fs-4xxl: 40px;
     --fs-5xl: 52px;
   }
 }
@@ -171,15 +191,29 @@
     --fs-sm: 12px;
     --fs-md: 14px;
     --fs-lg: 17px;
+    --fs-xl: 15px;
+    --fs-2xl: 24px;
+    --fs-3xl: 20px;
+    --fs-4xl: 40px;
+    --fs-4xxl: 40px;
+    --fs-5xl: 52px;
+  }
+}
+@media (min-width: 1200px) {
+  :root {
+    --fs-xsm: 10px;
+    --fs-sm: 12px;
+    --fs-md: 14px;
+    --fs-lg: 17px;
     --fs-xl: 18px;
     --fs-2xl: 24px;
-    --fs-3xl: 30px;
+    --fs-3xl: 25px;
     --fs-4xl: 40px;
     --fs-4xxl: 44px;
     --fs-5xl: 52px;
   }
 }
-@media (min-width: 1200px) {
+@media (min-width: 1400px) {
   :root {
     --fs-xsm: 10px;
     --fs-sm: 12px;
