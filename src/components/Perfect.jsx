@@ -40,7 +40,7 @@ function Perfect() {
                   </div>
                   <div className=" position-relative">
                     <img
-                      className=" position-absolute gray_img_position z_index-1"
+                      className=" position-absolute gray_img_position z_index-1 d-none d-sm-block"
                       src={gray_img_circle}
                       alt="gray_img_circle"
                     />

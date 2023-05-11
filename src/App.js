@@ -1,9 +1,10 @@
 import "./App.css";
+import "./pk.css";
+import "bootstrap/dist/css/bootstrap.min.css";
 import Clients from "./components/Clients";
 import Get from "./components/Get";
 import Perfect from "./components/Perfect";
-import "./pk.css";
-import "bootstrap/dist/css/bootstrap.min.css";
+import Blog from "./components/Blog";
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <Clients />
       <Perfect />
       <Get />
+      <Blog />
     </>
   );
 }
