@@ -149,7 +149,7 @@
   cursor: pointer !important;
 }
 #get.get_bg_img {
-  background-image: url(../src/assets/img/png/GET-bg-img.png);
+  background-image: url("../src/assets/img/png/GET-bg-img.png");
   background-position: top;
   background-size: cover;
   background-repeat: no-repeat;
@@ -162,6 +162,24 @@
   border-radius: 15px;
 }
 #blog .blog_box:hover {
+  box-shadow: -2px 2px 30px rgba(250, 202, 16, 0.4);
+}
+
+/* =================================== Details Ipsum ===================== */
+#DetailIpsum.lorem_ipsum_bg {
+  background-color: #f6f6f6;
+}
+/* =============================== Coaching ============================= */
+#Coaching.bg_gray {
+  background-color: #f6f6f6;
+}
+#Coaching .coaching_box {
+  background: #ffffff;
+  border: 1px solid rgba(250, 202, 16, 0.4);
+  box-shadow: 0px 0px 13px rgba(0, 0, 0, 0.09);
+  border-radius: 15px;
+}
+#Coaching .coaching_box:hover {
   box-shadow: -2px 2px 30px rgba(250, 202, 16, 0.4);
 }
 @media (min-width: 992px) {
@@ -181,4 +199,8 @@
 @media (min-width: 1200px) {
 }
 @media (min-width: 1400px) {
+}
+
+textarea ::placeholder {
+  width: 100% !important;
 }
