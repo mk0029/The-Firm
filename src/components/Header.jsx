@@ -10,7 +10,7 @@ function Header() {
     document.body.style.overflow = "initial";
   }
   return (
-    <section className="bg-white pb-3">
+    <section className="bg-white p">
       <div
         data-aos="fade-down"
         data-aos-easing="ease-in"
@@ -18,7 +18,7 @@ function Header() {
         data-aos-duration="2000"
       >
         <div id="Header" className="container">
-          <div className="d-flex justify-content-between align-items-center w-100 pt-3 mt-1">
+          <div className="d-flex justify-content-between align-items-center w-100 pt-3 pb-2 mt-1">
             <a href="#">
               <img className="logo" src={logo} alt="logo-img" />
             </a>{" "}
@@ -111,7 +111,7 @@ function Header() {
             </div>
           </div>
         </div>
-        <div className="d-lg-none d-flex ">
+        <div className="d-lg-none d-flex pb-3">
           <div className={` ${navShow ? "shownav" : " hidenav"}`}>
             <div className="container">
               <ul class="ps-0 mb-0 d-flex flex-column py-5 align-items-center justify-content-center list-unstyled gap-3  pt-3 transition">

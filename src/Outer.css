@@ -79,6 +79,7 @@
   border-radius: 5px;
   padding: 9.5px 21.5px;
   border: 1px solid #faca10;
+  color: #faca10 !important;
 }
 a:hover.after_yellow_line::after {
   content: "";
@@ -106,6 +107,50 @@ a:hover.after_yellow_line::after {
   top: 30%;
   left: 40%;
 }
+.text_shadow {
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+/* DetailHero */
+#DetailHero .ovel_around_img1 {
+  bottom: -10%;
+  left: -12%;
+  z-index: 0;
+  width: 139px;
+  height: 139px;
+}
+
+/* Research-section */
+.ovel_around_img {
+  bottom: -15%;
+  left: 0%;
+  z-index: -1;
+  width: 139px;
+  height: 139px;
+}
+.icon_over_img {
+  top: 8%;
+  left: -10.5%;
+}
+.slider_btn {
+  background: #facb1073;
+  border-radius: 0px 30px 30px 0px;
+  padding: 12px 19.5px 11px 19px;
+}
+.slider_btn:hover {
+  background: #facb10;
+  border-radius: 0px 30px 30px 0px;
+  padding: 12px 19.5px 11px 19px;
+}
+.right_img {
+  filter: grayscale(100%) !important;
+}
+/* Footer */
+#Footer a {
+  color: #1e1e1e;
+}
+#Footer a:hover svg.fill-change path {
+  fill: #fbcc04;
+}
 
 /*  break-points */
 @media (max-width: 576px) {
@@ -119,8 +164,22 @@ a:hover.after_yellow_line::after {
     width: 200px;
     height: 37px;
   }
-  .bg_img {
+  #Hero.bg_img {
     background-image: url(./assets/img/webp/header-img.webp);
+    background-repeat: no-repeat;
+    background-size: 600px 360px;
+    background-position: bottom right;
+    width: 100%;
+  }
+  #CasesHero.bg_img1 {
+    background-image: url(./assets/img/webp/cases-hero-img.webp);
+    background-repeat: no-repeat;
+    background-size: 600px 360px;
+    background-position: bottom right;
+    width: 100%;
+  }
+  #JourneyHero.bg_img1 {
+    background-image: url(./assets/img/webp/jeurney-hero-img.webp);
     background-repeat: no-repeat;
     background-size: 600px 360px;
     background-position: bottom right;
@@ -135,14 +194,30 @@ a:hover.after_yellow_line::after {
   .min_vh_100 {
     min-height: 100vh;
   }
-  .bg_img {
+  #Hero.bg_img {
     background-size: 750px 560px;
     background-position: center right;
   }
+  #CasesHero.bg_img1 {
+    background-size: 750px 500px;
+    background-position: bottom right;
+  }
+  #JourneyHero.bg_img1 {
+    background-size: 750px 500px;
+    background-position: bottom right;
+  }
 }
 @media (min-width: 1400px) {
-  .bg_img {
-    background-size: 800px 560px;
+  #Hero.bg_img {
+    background-size: 825px 560px;
+    background-position: center right;
+  }
+  #CasesHero.bg_img1 {
+    background-size: 850px 560px;
+    background-position: center right;
+  }
+  #JourneyHero.bg_img1 {
+    background-size: 850px 560px;
     background-position: center right;
   }
 }
