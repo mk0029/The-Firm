@@ -12,12 +12,20 @@
 .ff_Nunito {
   font-family: "Nunito", sans-serif;
 }
+p,
+h1,
+h2,
+h3,
+h4,
+span {
+  letter-spacing: 0.02em;
+}
 :root {
   /*  */
   --fw-bolder: 900;
   --fs-xsm: 10px;
-  --fs-sm: 12px;
-  --fs-md: 14px;
+  --fs-sm: 9px;
+  --fs-md: 10px;
   --fs-lg: 17px;
   --fs-xl: 14px;
   --fs-2xl: 24px;
@@ -110,6 +118,19 @@
 }
 .btn__Main:hover {
   background-color: var(--bg-black);
+  color: #ffff;
+}
+.btn__Main_black {
+  box-shadow: 0px 10px 40px -12px rgba(30, 30, 30, 0.35);
+  padding: 12px 30px;
+  background-color: var(--bg-black);
+  border-radius: 5px;
+  color: #ffff;
+}
+.btn__Main_black:hover {
+  box-shadow: 0px 10px 40px -12px rgba(30, 30, 30, 0.35);
+  background-color: var(--bg-yellow);
+  color: #ffff;
 }
 .transition250 {
   transition: all 250ms ease-in-out;
