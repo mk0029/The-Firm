@@ -1,14 +1,15 @@
 import "./App.css";
 import "./Outer.css";
 import "bootstrap/dist/css/bootstrap.min.css";
-import Header from "./components/Header";
 import Hero from "./components/Hero";
-import "bootstrap/dist/css/bootstrap.min.css";
+import Header from "./components/Header";
+import Research from "./components/Research";
 
 function App() {
   return (
     <>
       <Hero />
+      <Research />
     </>
   );
 }

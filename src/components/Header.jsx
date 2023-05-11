@@ -10,7 +10,7 @@ function Header() {
     document.body.style.overflow = "initial";
   }
   return (
-    <section>
+    <section className="bg-white pb-3">
       <div
         data-aos="fade-down"
         data-aos-easing="ease-in"
@@ -23,8 +23,9 @@ function Header() {
               <img className="logo" src={logo} alt="logo-img" />
             </a>{" "}
             <ul className="d-flex gap-3 gap-xl-5 py-3 list-unstyled d-none d-lg-flex align-items-center mb-0 justify-content-end">
-              <li className=" position-relative afterline z_index129">
+              <li className="">
                 <a
+                  style={{ zIndex: "2" }}
                   class="ff_Nunito fw-bold fs_xl clr_light_black after_yellow_line position-relative"
                   href="#home"
                 >
@@ -34,6 +35,7 @@ function Header() {
 
               <li>
                 <a
+                  style={{ zIndex: "2" }}
                   class="ff_Nunito fw-bold fs_xl clr_light_black after_yellow_line position-relative"
                   href="#service"
                 >
@@ -43,14 +45,16 @@ function Header() {
 
               <li>
                 <a
+                  style={{ zIndex: "2" }}
                   class="ff_Nunito fw-bold fs_xl clr_light_black after_yellow_line position-relative"
                   href="#project"
                 >
-                  Solutions
+                  Cases
                 </a>
               </li>
               <li>
                 <a
+                  style={{ zIndex: "2" }}
                   class="ff_Nunito fw-bold fs_xl clr_light_black after_yellow_line position-relative"
                   href="#about"
                 >
@@ -59,6 +63,7 @@ function Header() {
               </li>
               <li>
                 <a
+                  style={{ zIndex: "2" }}
                   class="ff_Nunito fw-bold fs_xl clr_light_black after_yellow_line position-relative"
                   href="#about"
                 >
@@ -67,6 +72,7 @@ function Header() {
               </li>
               <li>
                 <a
+                  style={{ zIndex: "2" }}
                   class="ff_Nunito fw-bold fs_xl clr_light_black after_yellow_line position-relative"
                   href="#about"
                 >
