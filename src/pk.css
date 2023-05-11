@@ -71,20 +71,136 @@
   left: -10px;
 }
 /* ==================================== get ================================= */
-#get.get_bg_img {
-  background-image: url(../src/assets/img/png/GET-bg-img.png);
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  height: 396px;
-}
+
 #get .get_box {
   background: #ffffff;
   box-shadow: 0px 19px 34px 14px rgba(0, 0, 0, 0.06);
   border-radius: 15px;
+  transition: all 250ms ease-in-out;
+}
+#get .get_box:hover {
+  box-shadow: -2px 2px 30px rgba(250, 202, 16, 0.4);
+  transition: all 250ms ease-in-out;
+}
+#get .outline_none {
+  outline: none;
+}
+#get .border_none {
+  border: none;
+}
+#get ::placeholder {
+  color: #1e1e1e;
+  font-weight: 700;
+  font-size: 18px;
+}
+#get .border_bottom {
+  border-bottom: 2px solid #a5a5a5;
+}
+#get .submit_btn {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-left: 46px;
+  padding-right: 46px;
+  background: #faca10;
+  box-shadow: 0px 10px 40px -12px rgba(250, 202, 16, 0.35);
+  border-radius: 5px;
+  border: 2px solid transparent;
+  transition: all 250ms ease-in-out;
+}
+#get .submit_btn:hover {
+  background: transparent;
+  color: #faca10 !important;
+  border: 2px solid #faca10;
+  transition: all 250ms ease-in-out;
+}
+
+#get .css-13cymwt-control {
+  border: none !important;
+  background-color: transparent !important;
+}
+#get .css-t3ipsp-control {
+  border: transparent !important;
+  outline: none !important;
+  background-color: transparent !important;
+  border: none !important;
+  box-shadow: none !important;
+}
+#get .css-1xc3v61-indicatorContainer {
+  color: #1e1e1e !important;
+  cursor: pointer !important;
+}
+#get .css-t3ipsp-control:active {
+  border: transparent !important;
+  outline: none !important;
+  background-color: transparent !important;
+  border: none !important;
+}
+#get .css-1u9des2-indicatorSeparator {
+  display: none !important;
+}
+#get .css-1jqq78o-placeholder {
+  grid-area: 1/1/2/3;
+  color: #1e1e1e !important;
+  margin-left: 2px;
+  margin-right: 2px;
+  box-sizing: border-box;
+}
+#get .cursor_pointer {
+  cursor: pointer !important;
+}
+#get.get_bg_img {
+  background-image: url("../src/assets/img/png/GET-bg-img.png");
+  background-position: top;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+/* =================================== blog ============================== */
+#blog .blog_box {
+  background: #ffffff;
+  border: 1px solid rgba(250, 202, 16, 0.4);
+  box-shadow: 0px 0px 13px rgba(0, 0, 0, 0.09);
+  border-radius: 15px;
+}
+#blog .blog_box:hover {
+  box-shadow: -2px 2px 30px rgba(250, 202, 16, 0.4);
+}
+
+/* =================================== Details Ipsum ===================== */
+#DetailIpsum.lorem_ipsum_bg {
+  background-color: #f6f6f6;
+}
+/* =============================== Coaching ============================= */
+#Coaching.bg_gray {
+  background-color: #f6f6f6;
+}
+#Coaching .coaching_box {
+  background: #ffffff;
+  border: 1px solid rgba(250, 202, 16, 0.4);
+  box-shadow: 0px 0px 13px rgba(0, 0, 0, 0.09);
+  border-radius: 15px;
+}
+#Coaching .coaching_box:hover {
+  box-shadow: -2px 2px 30px rgba(250, 202, 16, 0.4);
 }
 @media (min-width: 992px) {
   #perfect .transform_translet_x {
     transform: translateX(30px);
   }
+  #get .transform_translet_y {
+    transform: translateY(20%);
+  }
+  #get.get_bg_img {
+    background-image: url(../src/assets/img/png/GET-bg-img.png);
+    background-position: top;
+    background-size: 100%, 396px;
+    background-repeat: no-repeat;
+  }
+}
+@media (min-width: 1200px) {
+}
+@media (min-width: 1400px) {
+}
+
+textarea ::placeholder {
+  width: 100% !important;
 }
