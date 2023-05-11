@@ -86,13 +86,6 @@
   width: 150px;
 }
 
-#Hero .bg_img {
-  background-image: url(./assets/img/webp/webp.png);
-  background-repeat: no-repeat;
-  background-size: 853px 650px;
-  background-position: 0 0;
-}
-
 /*  break-points */
 @media (max-width: 576px) {
 }
@@ -105,6 +98,14 @@
     width: 200px;
     height: 37px;
   }
+  .bg_img {
+    background-image: url(./assets/img/webp/header-img1.webp);
+    background-repeat: no-repeat;
+    background-size: 1500px 650px;
+    background-position: center bottom;
+    width: 100%;
+    min-height: 100vh;
+  }
 }
 @media (min-width: 1200px) {
   .logo {
@@ -112,5 +113,5 @@
     height: 37px;
   }
 }
-@media (min-width: 1440) {
+@media (min-width: 1440px) {
 }

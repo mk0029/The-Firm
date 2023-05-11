@@ -18,7 +18,7 @@ function Header() {
         data-aos-duration="2000"
       >
         <div id="Header" className="container">
-          <div className="d-flex justify-content-between align-items-center w-100 py-2">
+          <div className="d-flex justify-content-between align-items-center w-100 pt-3 mt-1">
             <a href="#">
               <img className="logo" src={logo} alt="logo-img" />
             </a>{" "}
