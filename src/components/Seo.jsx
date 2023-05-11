@@ -9,7 +9,7 @@ function Seo() {
     <>
       <section id="Seo" className="py-5">
         <div className="container ">
-          <div className="row mt-md-5 py-5 pt-2 flex-column-reverse flex-md-row">
+          <div className="row mt-md-5 py-5 pt-2">
             <div className="col-md-6 mt-4 mt-md-0">
               <div className="d-flex justify-content-center flex-column h-100">
                 <h3 className="ff_Nunito fw-bold fs_3xl clr_light_black mb-0">
