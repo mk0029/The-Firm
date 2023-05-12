@@ -11,6 +11,7 @@ import Details from "./Firmjs/Details";
 import Solution from "./Firmjs/Solution";
 import Digital from "./Firmjs/Digital";
 import { Routes, Route } from "react-router-dom";
+import BackToTop from "./components/BackToTop";
 
 function App() {
   useEffect(() => {
@@ -18,6 +19,7 @@ function App() {
   }, []);
   return (
     <div className=" overflow-hidden">
+      <BackToTop />
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/cases" element={<Cases />} />
