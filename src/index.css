@@ -20,6 +20,9 @@ h4,
 span {
   letter-spacing: 0.02em;
 }
+p {
+  line-height: 176%;
+}
 :root {
   /*  */
   --fw-bolder: 900;
@@ -28,11 +31,11 @@ span {
   --fs-md: 10px;
   --fs-lg: 17px;
   --fs-xl: 11px;
-  --fs-2xl: 24px;
+  --fs-2xl: 14px;
   --fs-3xl: 25px;
   --fs-4xl: 35px;
-  --fs-4xxl: 33px;
-  --fs-5xl: 38px;
+  --fs-4xxl: 35px;
+  --fs-5xl: 45px;
   /* clr */
   --clr-light-black: #1e1e1e;
   --clr-dim-grey: #c4c4c4;
@@ -158,6 +161,17 @@ span {
 }
 .z_index5 {
   z-index: 5;
+}
+#get ::placeholder {
+  color: #1e1e1e;
+  font-weight: 700;
+  font-size: var(--fs-xl);
+}
+@media (max-width: 375px) {
+  :root {
+    --fs-5xl: 35px;
+    --fs-4xxl: 31px;
+  }
 }
 @media (min-width: 576px) {
   :root {

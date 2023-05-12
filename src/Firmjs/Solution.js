@@ -7,16 +7,18 @@ import Seo from "../components/Seo";
 import TestiMonals from "../components/TestiMonals";
 import Footer from "../components/Footer";
 import Coaching from "../components/Coachiing";
+import Header from "../components/Header";
 
 function Solution() {
   return (
     <>
-      <Perfect />
+      <Header />
+      <Perfect paddingTop="pb-5" paddingLG="pb-lg-5" />
       <SolutionCoaching />
       <Coaching />
       <Partner />
       <Seo />
-      <TestiMonals />
+      <TestiMonals bggray="bg_gray_testimonals" />
       <Footer />
     </>
   );

@@ -4,7 +4,7 @@ import questionmark_img from "../assets/img/svg/questionmark-img.svg";
 function DetailsIpsum() {
   return (
     <>
-      <section className=" py-5 lorem_ipsum_bg" id="DetailIpsum">
+      <section className=" py-5 lorem_ipsum_bg mb-sm-5" id="DetailIpsum">
         <div className="container py-lg-4">
           <h2 className=" ff_Nunito fw-bold fs_4xl clr_light_black mb-0">
             Lorem

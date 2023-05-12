@@ -5,7 +5,7 @@ function SolutionCoaching() {
   return (
     <>
       <section className=" py-5 bg_gray" id="Coaching">
-        <div className="container py-lg-5">
+        <div className="container py-lg-4">
           <div className="row justify-content-center">
             {Coaching.map((data) => {
               return (
@@ -23,8 +23,7 @@ function SolutionCoaching() {
                     <div className="d-flex justify-content-center mt-4 pt-2 pb-2">
                       <a
                         className=" ff_Nunito fw-bold fs_xl text-white btn__Main_black transition250"
-                        href="#"
-                      >
+                        href="#">
                         {data.btn}
                       </a>
                     </div>

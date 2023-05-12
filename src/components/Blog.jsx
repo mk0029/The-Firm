@@ -10,11 +10,10 @@ function Blog() {
       <section className=" py-5 bg_clr__dimWhite" id="blog">
         <div className="container">
           <h2
-            className=" text-center ff_Nunito fw_bolder fs_4xxl clr_light_black mt-5 pt-5 mb-sm-5 pb-md-3"
+            className=" text-center ff_Nunito fw_bolder fs_4xxl clr_light_black mt-5 mb-sm-5 pb-md-3"
             data-aos="fade-down"
             data-aos-easing="linear"
-            data-aos-duration="1500"
-          >
+            data-aos-duration="1500">
             Our{" "}
             <span className=" position-relative after_yellow_line z_index2">
               Blogs
@@ -27,8 +26,7 @@ function Blog() {
                   className="col-xl-4 col-md-6 mt-4"
                   data-aos="zoom-in"
                   data-aos-easing="linear"
-                  data-aos-duration="1500"
-                >
+                  data-aos-duration="1500">
                   <div className="pt-2 pb-4 bg-white blog_box transition250">
                     <img className=" w-100" src={data.img} alt="blog_1" />
                     <div className="px-4">
@@ -53,11 +51,10 @@ function Blog() {
                         </div>
                       </div>
                     </div>
-                    <div className="d-flex justify-content-center mt-4 pt-2 pb-4">
+                    <div className="d-flex justify-content-center mt-4 pt-md-2 pb-4">
                       <a
                         className=" ff_Nunito fw-bold fs_xl text-white btn__Main_black transition250"
-                        href="#"
-                      >
+                        href="#">
                         {data.btn}
                       </a>
                     </div>
@@ -70,12 +67,10 @@ function Blog() {
             className="d-flex justify-content-center mt-4 pt-4 mb-md-5"
             data-aos="fade-up"
             data-aos-easing="linear"
-            data-aos-duration="1500"
-          >
+            data-aos-duration="1500">
             <a
               className=" ff_Nunito fw-bold fs_xl text-white btn__Main transition250"
-              href="#"
-            >
+              href="#">
               View More
             </a>
           </div>

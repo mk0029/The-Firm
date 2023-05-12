@@ -119,6 +119,10 @@
 #TestiMonials .image_3 {
   width: 156px;
 }
+.bg_gray_testimonals {
+  background-color: #f6f6f6 !important;
+}
+
 #TestiMonials .Outerring {
   height: 100%;
   width: 100%;
@@ -226,11 +230,7 @@
 .border_none {
   border: none;
 }
-#get ::placeholder {
-  color: #1e1e1e;
-  font-weight: 700;
-  font-size: 18px;
-}
+
 #get .border_bottom {
   border-bottom: 2px solid #a5a5a5;
 }
@@ -327,7 +327,7 @@
 
 .threeline {
   width: 20px;
-  z-index: 124;
+  z-index: 99999 !important;
   position: inherit;
 }
 .threelinechild {
@@ -362,7 +362,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  z-index: 122 !important;
+  z-index: 9999 !important;
   transition: all 0.4s ease-in-out;
 }
 .hidenav {
@@ -376,7 +376,7 @@
   justify-content: center;
   align-items: center;
   transition: all 0.4s ease-in-out !important;
-  z-index: 122 !important;
+  z-index: 9999 !important;
 }
 
 /* BTN */
@@ -385,14 +385,14 @@
   box-shadow: 0px 10px 40px -12px rgba(250, 202, 16, 0.35);
   border-radius: 5px;
   padding: 9.5px 21.5px;
-  border: 1px solid transparent;
+  border: 2px solid transparent;
 }
 .get_touch_btn:hover {
   background: transparent;
   box-shadow: 0px 10px 40px -12px rgba(250, 202, 16, 0.35);
   border-radius: 5px;
   padding: 9.5px 21.5px;
-  border: 1px solid #faca10;
+  border: 2px solid #faca10;
   color: #faca10 !important;
 }
 #Header a.after_yellow_line1::after {
@@ -444,6 +444,9 @@
   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 /* DetailHero */
+#DetailHero .hero_img_shadow {
+  filter: drop-shadow(0px 0px 20px rgba(0, 0, 0, 0.1));
+}
 #DetailHero .ovel_around_img1 {
   bottom: -10%;
   left: -12%;
@@ -575,7 +578,7 @@ border-radius: 5px;
   #Hero.bg_img {
     background-image: url(./assets/img/webp/header-img.webp);
     background-repeat: no-repeat;
-    background-size: 600px 360px;
+    background-size: 600px 83%;
     background-position: bottom right;
     width: 100%;
   }
@@ -624,7 +627,7 @@ border-radius: 5px;
   }
   #Hero.bg_img {
     background-size: 750px 560px;
-    background-position: center right;
+    background-position: bottom right;
   }
   #CasesHero.bg_img1 {
     background-size: 750px 500px;
@@ -640,8 +643,8 @@ border-radius: 5px;
 }
 @media (min-width: 1400px) {
   #Hero.bg_img {
-    background-size: 825px 560px;
-    background-position: center right;
+    background-size: 825px 88%;
+    background-position: bottom right;
   }
   #CasesHero.bg_img1 {
     background-size: 850px 560px;
