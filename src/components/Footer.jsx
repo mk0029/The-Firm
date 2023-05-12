@@ -4,7 +4,12 @@ import logo from "../assets/img/png/logo.png";
 function Footer() {
   return (
     <>
-      <section id="Footer" className="py-4 pt-5">
+      <section
+        id="Footer"
+        className="py-4 py-md-5"
+        data-aos="fade-down"
+        data-aos-easing="linear"
+        data-aos-duration="1500">
         <div className="container">
           <div className="d-flex flex-column align-items-center">
             <a href="#" className=" transition250">
@@ -14,7 +19,7 @@ function Footer() {
               <li className="">
                 <a
                   style={{ zIndex: "2" }}
-                  class="ff_Nunito fw-bold transition300 fs_xl clr_light_black after_yellow_line1 position-relative"
+                  class="ff_Nunito fw-bold fs_xl clr_light_black after_yellow_line1 position-relative"
                   href="#home">
                   Home
                 </a>
@@ -23,7 +28,7 @@ function Footer() {
               <li>
                 <a
                   style={{ zIndex: "2" }}
-                  class="ff_Nunito fw-bold transition300 fs_xl clr_light_black after_yellow_line1 position-relative"
+                  class="ff_Nunito fw-bold fs_xl clr_light_black after_yellow_line1 position-relative"
                   href="#service">
                   Solutions
                 </a>
@@ -32,7 +37,7 @@ function Footer() {
               <li>
                 <a
                   style={{ zIndex: "2" }}
-                  class="ff_Nunito fw-bold transition300 fs_xl clr_light_black after_yellow_line1 position-relative"
+                  class="ff_Nunito fw-bold fs_xl clr_light_black after_yellow_line1 position-relative"
                   href="#project">
                   Cases
                 </a>
@@ -40,7 +45,7 @@ function Footer() {
               <li>
                 <a
                   style={{ zIndex: "2" }}
-                  class="ff_Nunito fw-bold transition300 fs_xl clr_light_black after_yellow_line1 position-relative"
+                  class="ff_Nunito fw-bold fs_xl clr_light_black after_yellow_line1 position-relative"
                   href="#about">
                   About Us
                 </a>
@@ -48,7 +53,7 @@ function Footer() {
               <li>
                 <a
                   style={{ zIndex: "2" }}
-                  class="ff_Nunito fw-bold transition300 fs_xl clr_light_black after_yellow_line1 position-relative"
+                  class="ff_Nunito fw-bold fs_xl clr_light_black after_yellow_line1 position-relative"
                   href="#about">
                   Blog
                 </a>
@@ -56,7 +61,7 @@ function Footer() {
               <li>
                 <a
                   style={{ zIndex: "2" }}
-                  class="ff_Nunito fw-bold transition300 fs_xl clr_light_black after_yellow_line1 position-relative"
+                  class="ff_Nunito fw-bold fs_xl clr_light_black after_yellow_line1 position-relative"
                   href="#about">
                   Contact Us
                 </a>

@@ -51,30 +51,36 @@ function OurPartner() {
     <>
       <section id="OurPartner" className=" py-5">
         <div className=" container">
-          <div className="py-xl-5">
-            {" "}
-            <div className=" text-center pb-4 pb-xl-5 ">
-              <h2 className=" ff_Nunito fs_4xxl fw_bolder  d-inline-block mb-1 clr_light_black">
-                Our{" "}
-                <span className="position-relative after_yellow_line">
-                  Partner
-                </span>
-              </h2>
-            </div>
+          <div className=" text-center pb-5 ">
+            <h2
+              className=" ff_Nunito fs_4xxl fw_bolder  d-inline-block mb-0 clr_light_black"
+              data-aos="fade-down"
+              data-aos-easing="linear"
+              data-aos-duration="1500">
+              Our{" "}
+              <span className="position-relative after_yellow_line">
+                Partner
+              </span>
+            </h2>
+          </div>
+          <div
+            data-aos="fade-up"
+            data-aos-easing="linear"
+            data-aos-duration="1500">
             <Slider {...settings} className="px-xxl-5">
-              <div className=" d-flex justify-content-center">
+              <div className="py-4 d-flex justify-content-center">
                 <img className="Logos transition300" src={Logo1} alt="" />
               </div>
-              <div className=" d-flex justify-content-center">
+              <div className="py-4 d-flex justify-content-center">
                 <img className="Logos transition300" src={Logo2} alt="" />
               </div>
-              <div className=" d-flex justify-content-center">
+              <div className="py-4 d-flex justify-content-center">
                 <img className="Logos transition300" src={Logo3} alt="" />
               </div>
-              <div className=" d-flex justify-content-center">
+              <div className="py-4 d-flex justify-content-center">
                 <img className="Logos transition300" src={Logo4} alt="" />
               </div>
-              <div className=" d-flex justify-content-center">
+              <div className="py-4 d-flex justify-content-center">
                 <img className="Logos transition300" src={Logo1} alt="" />
               </div>
             </Slider>
