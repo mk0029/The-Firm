@@ -9,8 +9,7 @@ function Cases() {
     <div>
       <CasesHero />
       <OurCases />
-
-      <TestiMonals />
+      <TestiMonals bggray="bg_gray_testimonals" />
       <Footer />
     </div>
   );
