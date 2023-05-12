@@ -15,7 +15,8 @@ function Header() {
         data-aos="fade-down"
         data-aos-easing="ease-in"
         data-aos-delay="300"
-        data-aos-duration="2000">
+        data-aos-duration="2000"
+      >
         <div id="Header" className="container">
           <div className="d-flex justify-content-between align-items-center w-100 pt-3 pb-2 mt-1">
             <a href="#">
@@ -26,7 +27,8 @@ function Header() {
                 <a
                   style={{ zIndex: "2" }}
                   class="ff_Nunito fw-bold fs_xl clr_light_black after_yellow_line1 position-relative"
-                  href="#home">
+                  href="#home"
+                >
                   Home
                 </a>
               </li>
@@ -35,7 +37,8 @@ function Header() {
                 <a
                   style={{ zIndex: "2" }}
                   class="ff_Nunito fw-bold fs_xl clr_light_black after_yellow_line1 position-relative"
-                  href="#service">
+                  href="#service"
+                >
                   Solutions
                 </a>
               </li>
@@ -44,7 +47,8 @@ function Header() {
                 <a
                   style={{ zIndex: "2" }}
                   class="ff_Nunito fw-bold fs_xl clr_light_black after_yellow_line1 position-relative"
-                  href="#project">
+                  href="#project"
+                >
                   Cases
                 </a>
               </li>
@@ -52,7 +56,8 @@ function Header() {
                 <a
                   style={{ zIndex: "2" }}
                   class="ff_Nunito fw-bold fs_xl clr_light_black after_yellow_line1 position-relative"
-                  href="#about">
+                  href="#about"
+                >
                   About Us
                 </a>
               </li>
@@ -60,7 +65,8 @@ function Header() {
                 <a
                   style={{ zIndex: "2" }}
                   class="ff_Nunito fw-bold fs_xl clr_light_black after_yellow_line1 position-relative"
-                  href="#about">
+                  href="#about"
+                >
                   Blog
                 </a>
               </li>
@@ -68,14 +74,16 @@ function Header() {
                 <a
                   style={{ zIndex: "2" }}
                   class="ff_Nunito fw-bold fs_xl clr_light_black after_yellow_line1 position-relative"
-                  href="#about">
+                  href="#about"
+                >
                   Contact Us
                 </a>
               </li>
               <li>
                 <a
-                  class="get_touch_btn ff_Nunito fw-bold fs_xl text-white after_yellow_line1 position-relative"
-                  href="#about">
+                  class="get_touch_btn ff_Nunito fw-bold fs_xl text-white transition300 after_yellow_line1 position-relative"
+                  href="#about"
+                >
                   Get in Touch
                 </a>
               </li>
@@ -87,16 +95,18 @@ function Header() {
                   ? "threeline d-lg-none cursor_pointer my-2"
                   : "threeline d-lg-none cursor_pointer my-2"
               }
-              onClick={() => setNavShow(!navShow)}>
+              onClick={() => setNavShow(!navShow)}
+            >
               <a href="#">
                 <div
-                  className={
-                    navShow ? " falseline1" : "  threelinechild"
-                  }></div>
+                  className={navShow ? " falseline1" : "  threelinechild"}
+                ></div>
                 <div
-                  className={navShow ? "falseline" : " threelinechild"}></div>
+                  className={navShow ? "falseline" : " threelinechild"}
+                ></div>
                 <div
-                  className={navShow ? "falseline3 " : "threelinechild"}></div>
+                  className={navShow ? "falseline3 " : "threelinechild"}
+                ></div>
               </a>
             </div>
           </div>
@@ -109,49 +119,56 @@ function Header() {
                 <li className=" position-relative afterline z_index129">
                   <a
                     class="ff_Nunito fw-bold fs_xl clr_light_black after_yellow_line1 position-relative"
-                    href="#home">
+                    href="#home"
+                  >
                     Home
                   </a>
                 </li>
                 <li>
                   <a
                     class="ff_Nunito fw-bold fs_xl clr_light_black after_yellow_line1 position-relative"
-                    href="#service">
+                    href="#service"
+                  >
                     Solutions
                   </a>
                 </li>
                 <li>
                   <a
                     class="ff_Nunito fw-bold fs_xl clr_light_black after_yellow_line1 position-relative"
-                    href="#project">
+                    href="#project"
+                  >
                     Solutions
                   </a>
                 </li>
                 <li>
                   <a
                     class="ff_Nunito fw-bold fs_xl clr_light_black after_yellow_line1 position-relative"
-                    href="#about">
+                    href="#about"
+                  >
                     About Us
                   </a>
                 </li>
                 <li>
                   <a
                     class="ff_Nunito fw-bold fs_xl clr_light_black after_yellow_line1 position-relative"
-                    href="#about">
+                    href="#about"
+                  >
                     Blog
                   </a>
                 </li>
                 <li>
                   <a
                     class="ff_Nunito fw-bold fs_xl clr_light_black after_yellow_line1 position-relative"
-                    href="#about">
+                    href="#about"
+                  >
                     Contact Us
                   </a>
                 </li>
                 <li>
                   <a
                     class="get_touch_btn ff_Nunito fw-bold fs_xl clr_light_black after_yellow_line1 position-relative"
-                    href="#about">
+                    href="#about"
+                  >
                     Get in Touch
                   </a>
                 </li>

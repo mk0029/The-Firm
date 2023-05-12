@@ -14,14 +14,24 @@ function Get(props) {
           <div className="pt-5 mt-4">
             {" "}
             <div className="get_box py-5 px-lg-5 mx-xl-5 position-relative">
-              <h2 className=" ff_Nunito fw_bolder fs_4xxl clr_light_black text-center pt-sm-3">
+              <h2
+                className=" ff_Nunito fw_bolder fs_4xxl clr_light_black text-center pt-sm-3"
+                data-aos="fade-down"
+                data-aos-easing="linear"
+                data-aos-duration="1500"
+              >
                 Get in{" "}
                 <span className=" position-relative after_yellow_line z_index3">
                   Touch
                 </span>
               </h2>
               <div className="row px-md-5 px-2 pt-5 justify-content-between">
-                <div className="col-xl-5 col-lg-6">
+                <div
+                  className="col-xl-5 col-lg-6"
+                  data-aos="fade-right"
+                  data-aos-easing="linear"
+                  data-aos-duration="1500"
+                >
                   <p className=" ff_Nunito fw-normal fs_md clr_grey mb-0 ps-3 mb-1">
                     Name
                   </p>
@@ -31,7 +41,12 @@ function Get(props) {
                     placeholder="Lorem Ipusum"
                   />
                 </div>
-                <div className="col-xl-5 col-lg-6 mt-4 mt-lg-0">
+                <div
+                  className="col-xl-5 col-lg-6 mt-4 mt-lg-0"
+                  data-aos="fade-left"
+                  data-aos-easing="linear"
+                  data-aos-duration="1500"
+                >
                   <p className=" ff_Nunito fw-normal fs_md clr_grey mb-0 ps-3 mb-1">
                     Email
                   </p>
@@ -41,7 +56,12 @@ function Get(props) {
                     placeholder="LoremIpusum@mail.com"
                   />
                 </div>
-                <div className="col-xl-5 col-lg-6 mt-xl-5 pt-4">
+                <div
+                  className="col-xl-5 col-lg-6 mt-xl-5 pt-4"
+                  data-aos="fade-right"
+                  data-aos-easing="linear"
+                  data-aos-duration="1500"
+                >
                   <div className={props.classnone}>
                     <p className=" ff_Nunito fw-normal fs_md clr_grey mb-0 ps-3 mb-1">
                       Phone
@@ -53,7 +73,12 @@ function Get(props) {
                     />
                   </div>
                 </div>
-                <div className="col-xl-5 col-lg-6 mt-xl-5 pt-4">
+                <div
+                  className="col-xl-5 col-lg-6 mt-xl-5 pt-4"
+                  data-aos="fade-left"
+                  data-aos-easing="linear"
+                  data-aos-duration="1500"
+                >
                   <div className={props.classnone}>
                     {" "}
                     <p className=" ff_Nunito fw-normal fs_md clr_grey mb-0 ps-3">
@@ -66,24 +91,36 @@ function Get(props) {
                     />
                   </div>
                 </div>
-                <div className="col-12">
+                <div
+                  className="col-12"
+                  data-aos="fade-up"
+                  data-aos-easing="linear"
+                  data-aos-duration="1500"
+                >
                   <div className={props.FirstNone}>
                     <p className=" ff_Nunito fw-normal fs_md clr_grey mb-0 ps-3 mb-1">
                       Message
                     </p>
                     <textarea
                       style={{ resize: "none" }}
-                      className="w-100 outline_none border_none border_bottom px-3 ff_Lora fw-bold fs_xl pb-3">
+                      className="w-100 outline_none border_none border_bottom px-3 ff_Lora fw-bold fs_xl pb-3"
+                    >
                       Lorem Ipsum is simply dummy text of the printing and
                       typesetting industry. Lorem Ipsum has been the industry
                       standard dummy text ever since the 1500s.
                     </textarea>
                   </div>
                 </div>
-                <div className="d-flex justify-content-center pt-sm-5 pt-3">
+                <div
+                  className="d-flex justify-content-center pt-sm-5 pt-3"
+                  data-aos="fade-up"
+                  data-aos-easing="linear"
+                  data-aos-duration="1500"
+                >
                   <a
                     className=" ff_Nunito fw-bold fs_xl submit_btn text-white mt-4"
-                    href="#">
+                    href="#"
+                  >
                     Submit
                   </a>
                 </div>

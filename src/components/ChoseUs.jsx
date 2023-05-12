@@ -49,19 +49,33 @@ function ChoseUs() {
       <section id="Choseus" className=" bg_clr__dimWhite py-5">
         <div className=" container">
           <div className="py-5 ">
-            <h2 className=" text-center ff_Nunito fs_4xxl fw_bolder clr_light_black pb-lg-4 pb-3 mb-0">
+            <h2
+              className=" text-center ff_Nunito fs_4xxl fw_bolder clr_light_black pb-lg-4 pb-3 mb-0"
+              data-aos="fade-down"
+              data-aos-easing="linear"
+              data-aos-duration="1500"
+            >
               Reason to Choose Us
             </h2>
             <p
               style={{ maxWidth: "864px" }}
-              className=" text-center ff_Lora fs_xl fw-normal clr_light_black mx-auto mb-0 pt-1 pb-4">
+              className=" text-center ff_Lora fs_xl fw-normal clr_light_black mx-auto mb-0 pt-1 pb-4"
+              data-aos="fade-right"
+              data-aos-easing="linear"
+              data-aos-duration="1500"
+            >
               Lorem Ipsum is simply dummy text of the printing and typesetting
               industry. Lorem Ipsum has been the industry's standard dummy text
               ever since the 1500s, when an unknown printer took a galley of
               type and scrambled it to make a type specimen book. It has
               survived not only five centuries,
             </p>
-            <div className="d-flex flex-wrap justify-content-center gap-lg-5 gsp-sm-4 gap-3 pb-lg-5 pb-4">
+            <div
+              className="d-flex flex-wrap justify-content-center gap-lg-5 gsp-sm-4 gap-3 pb-lg-5 pb-4"
+              data-aos="fade-left"
+              data-aos-easing="linear"
+              data-aos-duration="1500"
+            >
               <span className=" text-center d-inline-block  me-4 hover_btn_Choseus transition300">
                 <span
                   className={
@@ -69,7 +83,8 @@ function ChoseUs() {
                       ? " btn_Choseus btn_Choseus_hover d-inline-block clr_dim_grey ff_Nunito fw-semibold transition300 fs_xl rounded-3"
                       : " btn_Choseus d-inline-block clr_dim_grey ff_Nunito fw-semibold transition300 fs_xl rounded-3"
                   }
-                  onClick={() => setActive(0)}>
+                  onClick={() => setActive(0)}
+                >
                   Market Research
                 </span>
               </span>
@@ -80,7 +95,8 @@ function ChoseUs() {
                       ? " btn_Choseus btn_Choseus_hover d-inline-block clr_dim_grey ff_Nunito fw-semibold transition300 fs_xl rounded-3"
                       : " btn_Choseus d-inline-block clr_dim_grey ff_Nunito fw-semibold transition300 fs_xl rounded-3"
                   }
-                  onClick={() => setActive(1)}>
+                  onClick={() => setActive(1)}
+                >
                   Branding
                 </span>
               </span>
@@ -91,7 +107,8 @@ function ChoseUs() {
                       ? " btn_Choseus btn_Choseus_hover d-inline-block clr_dim_grey ff_Nunito fw-semibold transition300 fs_xl rounded-3"
                       : " btn_Choseus d-inline-block clr_dim_grey ff_Nunito fw-semibold transition300 fs_xl rounded-3"
                   }
-                  onClick={() => setActive(2)}>
+                  onClick={() => setActive(2)}
+                >
                   Reporting
                 </span>
               </span>
@@ -102,14 +119,19 @@ function ChoseUs() {
                       ? " btn_Choseus btn_Choseus_hover d-inline-block clr_dim_grey ff_Nunito fw-semibold transition300 fs_xl rounded-3"
                       : " btn_Choseus d-inline-block clr_dim_grey ff_Nunito fw-semibold transition300 fs_xl rounded-3"
                   }
-                  onClick={() => setActive(3)}>
+                  onClick={() => setActive(3)}
+                >
                   Data Analysis
                 </span>
               </span>
             </div>
             <div
               style={{ borderRadius: "30px" }}
-              className=" bg-white py-5 px-3 mt-3  ">
+              className=" bg-white py-5 px-3 mt-3  "
+              data-aos="fade-up"
+              data-aos-easing="linear"
+              data-aos-duration="1500"
+            >
               <div className="py-sm-3 px-sm-3 mx-sm-2">
                 <div className="row flex-column-reverse flex-lg-row justify-content-between">
                   <div className="col-lg-5 mt-4 mt-md-5 mt-lg-0">
@@ -133,18 +155,21 @@ function ChoseUs() {
                         {" "}
                         <h2
                           style={{ letterSpacing: "0.02em" }}
-                          className=" ff_Nunito fw-semibold fs_3xl clr_light_black mb-0 pb-3 after_yellow_line position-relative">
+                          className=" ff_Nunito fw-semibold fs_3xl clr_light_black mb-0 pb-3 after_yellow_line position-relative"
+                        >
                           {imges[active].text1}
                         </h2>
                         <p
                           style={{ maxWidth: "505px", letterSpacing: "0.02em" }}
-                          className="  ff_Lora fs_xl fw-normal clr_light_black mb-0 ">
+                          className="  ff_Lora fs_xl fw-normal clr_light_black mb-0 "
+                        >
                           {imges[active].text2}
                         </p>
                         <span className=" d-inline-block pt-2 pt-md-3 mt-2">
                           <a
                             className=" btn__Main_black transition300 d-inline-block bg_clr_Black"
-                            href="">
+                            href=""
+                          >
                             {imges[active].btnData}
                           </a>
                         </span>

@@ -19,7 +19,12 @@ function Perfect() {
                 alt="ff_img"
               />
               <div className="row align-items-center justify-content-between mt-4 z_index2 ">
-                <div className="col-sm-6">
+                <div
+                  className="col-sm-6"
+                  data-aos="fade-down-right"
+                  data-aos-easing="linear"
+                  data-aos-duration="1500"
+                >
                   <div className="text-center px-4 py-5 box_border position-relative">
                     <img
                       className=" position-absolute lightYellow_img_position z_index-1"
@@ -55,7 +60,12 @@ function Perfect() {
                     </div>
                   </div>
                 </div>
-                <div className="col-sm-6">
+                <div
+                  className="col-sm-6"
+                  data-aos="fade-down-left"
+                  data-aos-easing="linear"
+                  data-aos-duration="1500"
+                >
                   <div className=" position-relative">
                     <img
                       className=" position-absolute z_index-1 digita_lightyellow_position"
@@ -90,7 +100,12 @@ function Perfect() {
               </div>
             </div>
             <div className="col-lg-5">
-              <h2 className=" ff_Nunito fw_bolder fs_4xxl clr_light_black mb-0">
+              <h2
+                className=" ff_Nunito fw_bolder fs_4xxl clr_light_black mb-0"
+                data-aos="fade-down"
+                data-aos-easing="linear"
+                data-aos-duration="1500"
+              >
                 Perfect Solution for Your{" "}
                 <span className=" position-relative after_yellow_line">
                   Bussiness
@@ -99,6 +114,9 @@ function Perfect() {
               <p
                 className=" ff_Lora fw-normal fs_xl clr_light_black mb-4
                mt-sm-3  mt-2 pe-xl-4 me-xl-5"
+                data-aos="fade-left"
+                data-aos-easing="linear"
+                data-aos-duration="1500"
               >
                 Lorem Ipsum is simply dummy text of the printing and typesetting
                 industry. Lorem Ipsum has been the industry's standard dummy
@@ -106,12 +124,19 @@ function Perfect() {
                 of type and scrambled it to make a type specimen book. It has
                 survived not only five centuries,
               </p>
-              <a
-                className=" btn_ReadMore text-white ff_Nunito fw-bold fs_xl d-inline-block mt-sm-3 mb-3 mb-sm-0"
-                href="#"
+              <span
+                className=" d-inline-block"
+                data-aos="fade-up"
+                data-aos-easing="linear"
+                data-aos-duration="1500"
               >
-                Read More
-              </a>
+                <a
+                  className=" btn_ReadMore text-white ff_Nunito fw-bold fs_xl d-inline-block mt-sm-3 mb-3 mb-sm-0"
+                  href="#"
+                >
+                  Read More
+                </a>
+              </span>
             </div>
           </div>
         </div>
