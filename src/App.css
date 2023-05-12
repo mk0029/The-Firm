@@ -226,11 +226,7 @@
 #get .border_none {
   border: none;
 }
-#get ::placeholder {
-  color: #1e1e1e;
-  font-weight: 700;
-  font-size: 18px;
-}
+
 #get .border_bottom {
   border-bottom: 2px solid #a5a5a5;
 }
@@ -327,7 +323,7 @@
 
 .threeline {
   width: 20px;
-  z-index: 124;
+  z-index: 99999 !important;
   position: inherit;
 }
 .threelinechild {
@@ -362,7 +358,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  z-index: 122 !important;
+  z-index: 9999 !important;
   transition: all 0.4s ease-in-out;
 }
 .hidenav {
@@ -376,7 +372,7 @@
   justify-content: center;
   align-items: center;
   transition: all 0.4s ease-in-out !important;
-  z-index: 122 !important;
+  z-index: 9999 !important;
 }
 
 /* BTN */
@@ -499,7 +495,7 @@
   #Hero.bg_img {
     background-image: url(./assets/img/webp/header-img.webp);
     background-repeat: no-repeat;
-    background-size: 600px 360px;
+    background-size: 600px 83%;
     background-position: bottom right;
     width: 100%;
   }
@@ -545,7 +541,7 @@
   }
   #Hero.bg_img {
     background-size: 750px 560px;
-    background-position: center right;
+    background-position: bottom right;
   }
   #CasesHero.bg_img1 {
     background-size: 750px 500px;
@@ -561,8 +557,8 @@
 }
 @media (min-width: 1400px) {
   #Hero.bg_img {
-    background-size: 825px 560px;
-    background-position: center right;
+    background-size: 825px 88%;
+    background-position: bottom right;
   }
   #CasesHero.bg_img1 {
     background-size: 850px 560px;

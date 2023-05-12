@@ -18,7 +18,8 @@ function Research() {
   return (
     <>
       <section id="Research" className="py-5">
-        <div className="container ">
+        {" "}
+        <div className="container pt-xl-5 ">
           <h2 className="ff_Nunito fw_bolder fs_4xxl clr_light_black text-center mb-0">
             Our Research & Case Studies
           </h2>
@@ -34,13 +35,15 @@ function Research() {
           </p>
           <Slider ref={MyBtn} {...settings}>
             <div>
-              <div className="row mt-md-5 py-5 pt-2 flex-column-reverse flex-md-row">
+              <div className="row mt-3 py-5 pt-2 flex-column-reverse flex-md-row">
                 <div className="col-md-6 mt-4 mt-md-0">
                   <div className="d-flex justify-content-center flex-column h-100">
                     <h3 className="ff_Nunito fw-bold fs_3xl clr_light_black mb-0">
                       Lorem Ipsum is simply
                     </h3>
-                    <p className="ff_Lora fw-normal fs_xl clr_light_black mb-0 mt-2 pt-1">
+                    <p
+                      className="ff_Lora fw-normal fs_xl clr_light_black mb-0 mt-2 pt-1 pb-3 pb-lg-4"
+                      style={{ maxWidth: "547px" }}>
                       Lorem Ipsum is simply dummy text of the printing and
                       typesetting industry. Lorem Ipsum has been the industry
                       standard dummy text ever since the 1500s, when an unknown
@@ -52,14 +55,14 @@ function Research() {
                     <span>
                       {" "}
                       <a
-                        class="get_touch_btn ff_Nunito d-inline-block fw-bold fs_xl text-white mt-4 mt-md-4"
+                        class="get_touch_btn ff_Nunito d-inline-block fw-bold fs_xl text-white mt-lg-3 transition300"
                         href="#about">
                         Read More
                       </a>
                     </span>
                   </div>
                 </div>
-                <div className="col-md-6 mt-4">
+                <div className="col-md-6 pb-lg-5 mt-4">
                   <div className="d-flex justify-content-center position-relative">
                     <img
                       className="position-absolute ovel_around_img"
@@ -97,7 +100,9 @@ function Research() {
                     <h3 className="ff_Nunito fw-bold fs_3xl clr_light_black mb-0">
                       Lorem Ipsum is simply
                     </h3>
-                    <p className="ff_Lora fw-normal fs_xl clr_light_black mb-0 mt-2 pt-1">
+                    <p
+                      className="ff_Lora fw-normal fs_xl clr_light_black mb-0 mt-2 pt-1 pb-3 pb-lg-4"
+                      style={{ maxWidth: "547px" }}>
                       Lorem Ipsum is simply dummy text of the printing and
                       typesetting industry. Lorem Ipsum has been the industry
                       standard dummy text ever since the 1500s, when an unknown
@@ -109,7 +114,7 @@ function Research() {
                     <span>
                       {" "}
                       <a
-                        class="get_touch_btn ff_Nunito d-inline-block fw-bold fs_xl text-white mt-4 mt-md-4"
+                        class="get_touch_btn ff_Nunito d-inline-block fw-bold fs_xl text-white mt-lg-3 transition300"
                         href="#about">
                         Read More
                       </a>

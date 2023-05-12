@@ -11,7 +11,7 @@ function Get(props) {
     <>
       <section className=" get_bg_img py-5" id="get">
         <div className="container px-lg-5">
-          <div className="pt-5 mt-4">
+          <div className="pt-md-5 mt-lg-4">
             {" "}
             <div className="get_box py-5 px-lg-5 mx-xl-5 position-relative">
               <h2 className=" ff_Nunito fw_bolder fs_4xxl clr_light_black text-center pt-sm-3">

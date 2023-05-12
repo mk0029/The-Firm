@@ -9,7 +9,7 @@ function Blog() {
     <>
       <section className=" py-5 bg_clr__dimWhite" id="blog">
         <div className="container">
-          <h2 className=" text-center ff_Nunito fw_bolder fs_4xxl clr_light_black mt-5 pt-5 mb-sm-5 pb-md-3">
+          <h2 className=" text-center ff_Nunito fw_bolder fs_4xxl clr_light_black mt-xxl-3  pt-xl-4 mb-md-5 pb-lg-2">
             Our{" "}
             <span className=" position-relative after_yellow_line z_index2">
               Blogs
@@ -18,7 +18,7 @@ function Blog() {
           <div className="row justify-content-center">
             {Card.map((data) => {
               return (
-                <div className="col-xl-4 col-md-6 mt-4">
+                <div className="col-xl-4 col-md-6 mt-4 px-xxl-4">
                   <div className="pt-2 pb-4 bg-white blog_box transition250">
                     <img className=" w-100" src={data.img} alt="blog_1" />
                     <div className="px-4">
@@ -43,11 +43,10 @@ function Blog() {
                         </div>
                       </div>
                     </div>
-                    <div className="d-flex justify-content-center mt-4 pt-2 pb-4">
+                    <div className="d-flex justify-content-center mt-4 pt-md-2 pb-4">
                       <a
                         className=" ff_Nunito fw-bold fs_xl text-white btn__Main_black transition250"
-                        href="#"
-                      >
+                        href="#">
                         {data.btn}
                       </a>
                     </div>
@@ -56,11 +55,10 @@ function Blog() {
               );
             })}
           </div>
-          <div className="d-flex justify-content-center mt-4 pt-4 mb-md-5">
+          <div className="d-flex justify-content-center mt-md-4 pt-4 mb-md-5">
             <a
               className=" ff_Nunito fw-bold fs_xl text-white btn__Main transition250"
-              href="#"
-            >
+              href="#">
               View More
             </a>
           </div>

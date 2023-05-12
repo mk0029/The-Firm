@@ -12,8 +12,8 @@ import Digital from "./Firmjs/Digital";
 function App() {
   return (
     <div>
-      <Index />
-      {/* <Cases /> */}
+      {/* <Index /> */}
+      <Cases />
       {/* <Details /> */}
       {/* <Solution /> */}
       {/* <Digital /> */}

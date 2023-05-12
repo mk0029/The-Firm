@@ -4,17 +4,17 @@ import logo from "../assets/img/png/logo.png";
 function Footer() {
   return (
     <>
-      <section id="Footer" className="py-4 py-md-5">
+      <section id="Footer" className="py-4 pt-5">
         <div className="container">
           <div className="d-flex flex-column align-items-center">
-            <a href="#">
+            <a href="#" className=" transition250">
               <img className="logo" src={logo} alt="logo-img" />
             </a>
             <ul className="d-flex gap-2 gap-xl-5 list-unstyled align-items-center mb-0 justify-content-end mt-md-5 mt-4">
               <li className="">
                 <a
                   style={{ zIndex: "2" }}
-                  class="ff_Nunito fw-bold fs_xl clr_light_black after_yellow_line1 position-relative"
+                  class="ff_Nunito fw-bold transition300 fs_xl clr_light_black after_yellow_line1 position-relative"
                   href="#home">
                   Home
                 </a>
@@ -23,7 +23,7 @@ function Footer() {
               <li>
                 <a
                   style={{ zIndex: "2" }}
-                  class="ff_Nunito fw-bold fs_xl clr_light_black after_yellow_line1 position-relative"
+                  class="ff_Nunito fw-bold transition300 fs_xl clr_light_black after_yellow_line1 position-relative"
                   href="#service">
                   Solutions
                 </a>
@@ -32,7 +32,7 @@ function Footer() {
               <li>
                 <a
                   style={{ zIndex: "2" }}
-                  class="ff_Nunito fw-bold fs_xl clr_light_black after_yellow_line1 position-relative"
+                  class="ff_Nunito fw-bold transition300 fs_xl clr_light_black after_yellow_line1 position-relative"
                   href="#project">
                   Cases
                 </a>
@@ -40,7 +40,7 @@ function Footer() {
               <li>
                 <a
                   style={{ zIndex: "2" }}
-                  class="ff_Nunito fw-bold fs_xl clr_light_black after_yellow_line1 position-relative"
+                  class="ff_Nunito fw-bold transition300 fs_xl clr_light_black after_yellow_line1 position-relative"
                   href="#about">
                   About Us
                 </a>
@@ -48,7 +48,7 @@ function Footer() {
               <li>
                 <a
                   style={{ zIndex: "2" }}
-                  class="ff_Nunito fw-bold fs_xl clr_light_black after_yellow_line1 position-relative"
+                  class="ff_Nunito fw-bold transition300 fs_xl clr_light_black after_yellow_line1 position-relative"
                   href="#about">
                   Blog
                 </a>
@@ -56,16 +56,16 @@ function Footer() {
               <li>
                 <a
                   style={{ zIndex: "2" }}
-                  class="ff_Nunito fw-bold fs_xl clr_light_black after_yellow_line1 position-relative"
+                  class="ff_Nunito fw-bold transition300 fs_xl clr_light_black after_yellow_line1 position-relative"
                   href="#about">
                   Contact Us
                 </a>
               </li>
             </ul>
             <div className="mt-md-5 mt-4 pt-md-3 d-flex gap-5 pb-1">
-              <a href="#">
+              <a href="#" className=" transition250">
                 <svg
-                  className="fill-change"
+                  className="fill-change transition300"
                   width="10"
                   height="20"
                   viewBox="0 0 10 20"
@@ -77,9 +77,9 @@ function Footer() {
                   />
                 </svg>
               </a>
-              <a href="#">
+              <a href="#" className=" transition250">
                 <svg
-                  className="fill-change"
+                  className="fill-change transition300"
                   width="25"
                   height="20"
                   viewBox="0 0 25 20"
@@ -91,9 +91,9 @@ function Footer() {
                   />
                 </svg>
               </a>
-              <a href="#">
+              <a href="#" className=" transition250">
                 <svg
-                  className="fill-change"
+                  className="fill-change transition300"
                   width="30"
                   height="20"
                   viewBox="0 0 30 20"
@@ -105,9 +105,9 @@ function Footer() {
                   />
                 </svg>
               </a>
-              <a href="#">
+              <a href="#" className=" transition250">
                 <svg
-                  className="fill-change"
+                  className="fill-change transition300"
                   width="20"
                   height="20"
                   viewBox="0 0 20 20"
@@ -127,9 +127,9 @@ function Footer() {
                   />
                 </svg>
               </a>
-              <a href="#">
+              <a href="#" className=" transition250">
                 <svg
-                  className="fill-change"
+                  className="fill-change transition300"
                   width="17"
                   height="20"
                   viewBox="0 0 17 20"

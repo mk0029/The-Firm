@@ -19,8 +19,7 @@ function Partner() {
                 />
                 <div
                   style={{ zIndex: "1", position: "relative" }}
-                  className="w-75 p-2 shadow bg-white rounded-4"
-                >
+                  className="w-75 p-2 shadow bg-white rounded-4">
                   <img className="w-100" src={studies} alt="img" />
                 </div>
               </div>
@@ -43,8 +42,7 @@ function Partner() {
                   {" "}
                   <a
                     class="get_touch_btn ff_Nunito d-inline-block fw-bold fs_xl text-white mt-4 mt-md-4"
-                    href="#about"
-                  >
+                    href="#about">
                     Read More
                   </a>
                 </span>

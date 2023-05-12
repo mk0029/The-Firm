@@ -48,13 +48,14 @@ function ChoseUs() {
     <>
       <section id="Choseus" className=" bg_clr__dimWhite py-5">
         <div className=" container">
-          <div className="py-5 ">
+          <div className="py-lg-5 ">
             <h2 className=" text-center ff_Nunito fs_4xxl fw_bolder clr_light_black pb-lg-4 pb-3 mb-0">
-              Reason to Choose Us
+              Reason to Choose{" "}
+              <span className=" after_yellow_line position-relative">Us</span>
             </h2>
             <p
               style={{ maxWidth: "864px" }}
-              className=" text-center ff_Lora fs_xl fw-normal clr_light_black mx-auto mb-0 pt-1 pb-4">
+              className=" text-center ff_Lora fs_xl fw-normal clr_light_black mx-auto mb-0 pt-1 pb-xl-5 pb-4">
               Lorem Ipsum is simply dummy text of the printing and typesetting
               industry. Lorem Ipsum has been the industry's standard dummy text
               ever since the 1500s, when an unknown printer took a galley of
@@ -64,6 +65,7 @@ function ChoseUs() {
             <div className="d-flex flex-wrap justify-content-center gap-lg-5 gsp-sm-4 gap-3 pb-lg-5 pb-4">
               <span className=" text-center d-inline-block  me-4 hover_btn_Choseus transition300">
                 <span
+                  style={{ cursor: "pointer" }}
                   className={
                     active === 0
                       ? " btn_Choseus btn_Choseus_hover d-inline-block clr_dim_grey ff_Nunito fw-semibold transition300 fs_xl rounded-3"
@@ -75,6 +77,7 @@ function ChoseUs() {
               </span>
               <span className=" text-center d-inline-block  me-4 hover_btn_Choseus transition300">
                 <span
+                  style={{ cursor: "pointer" }}
                   className={
                     active === 1
                       ? " btn_Choseus btn_Choseus_hover d-inline-block clr_dim_grey ff_Nunito fw-semibold transition300 fs_xl rounded-3"
@@ -86,6 +89,7 @@ function ChoseUs() {
               </span>
               <span className=" text-center d-inline-block  me-4 hover_btn_Choseus transition300">
                 <span
+                  style={{ cursor: "pointer" }}
                   className={
                     active === 2
                       ? " btn_Choseus btn_Choseus_hover d-inline-block clr_dim_grey ff_Nunito fw-semibold transition300 fs_xl rounded-3"
@@ -97,6 +101,7 @@ function ChoseUs() {
               </span>
               <span className=" text-center d-inline-block  me-4 hover_btn_Choseus transition300">
                 <span
+                  style={{ cursor: "pointer" }}
                   className={
                     active === 3
                       ? " btn_Choseus btn_Choseus_hover d-inline-block clr_dim_grey ff_Nunito fw-semibold transition300 fs_xl rounded-3"
@@ -113,11 +118,14 @@ function ChoseUs() {
               <div className="py-sm-3 px-sm-3 mx-sm-2">
                 <div className="row flex-column-reverse flex-lg-row justify-content-between">
                   <div className="col-lg-5 mt-4 mt-md-5 mt-lg-0">
-                    <img
-                      className="w-100 h-100 Img_Shaddow transition300"
-                      src={imges[active].imge}
-                      alt=""
-                    />
+                    <div className="p-2 rounded-4 bg-white Img_Shaddow">
+                      {" "}
+                      <img
+                        className="w-100 h-100  transition300"
+                        src={imges[active].imge}
+                        alt=""
+                      />
+                    </div>
                   </div>
                   <div className="col-lg-7">
                     <div className="d-md-flex ms-md-4">

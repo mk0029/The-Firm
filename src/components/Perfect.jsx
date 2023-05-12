@@ -98,8 +98,7 @@ function Perfect() {
               </h2>
               <p
                 className=" ff_Lora fw-normal fs_xl clr_light_black mb-4
-               mt-sm-3  mt-2 pe-xl-4 me-xl-5"
-              >
+               mt-sm-3  mt-2 pe-xl-4 me-xl-5">
                 Lorem Ipsum is simply dummy text of the printing and typesetting
                 industry. Lorem Ipsum has been the industry's standard dummy
                 text ever since the 1500s, when an unknown printer took a galley
@@ -108,8 +107,7 @@ function Perfect() {
               </p>
               <a
                 className=" btn_ReadMore text-white ff_Nunito fw-bold fs_xl d-inline-block mt-sm-3 mb-3 mb-sm-0"
-                href="#"
-              >
+                href="#">
                 Read More
               </a>
             </div>

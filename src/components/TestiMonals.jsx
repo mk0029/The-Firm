@@ -12,7 +12,7 @@ function TestiMonals() {
     fade: true,
     dots: true,
     infinite: true,
-    speed: 0,
+    speed: 1000,
     slidesToShow: 1,
     slidesToScroll: 1,
     arrows: false,
@@ -74,10 +74,10 @@ function TestiMonals() {
     <>
       <section id="TestiMonials" className="py-5 ">
         <div className=" container">
-          <div className="py-5 mb-5">
+          <div className="py-lg-5 pb-4 mb-5">
             {" "}
             <div>
-              <h2 className=" text-center ff_Nunito fs_4xxl fw_bolder clr_light_black pb-lg-4 pb-3 mb-0 after_yellow_line mb-0 pb-5">
+              <h2 className=" text-center ff_Nunito fs_4xxl fw_bolder clr_light_black pb-xl-5 pb-4  mb-0 after_yellow_line mb-0">
                 Our{" "}
                 <span className=" after_yellow_line position-relative">
                   Testimonials
@@ -121,7 +121,7 @@ function TestiMonals() {
                       style={{ maxWidth: "850px" }}>
                       {data.Pera}
                     </p>
-                    <h4 className=" ff_Nunito fw-semibold fs_2xl clr_light_black text-center pt-2 mb-0">
+                    <h4 className=" ff_Nunito fw-bold fs_2xl clr_light_black text-center pt-2 mb-0">
                       {data.UserNAme}
                       <span className=" ff_Lora fw-normal fs_lg clr_light_black">
                         {data.UserWork}
