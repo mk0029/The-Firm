@@ -14,7 +14,7 @@ function Footer() {
               <li className="">
                 <a
                   style={{ zIndex: "2" }}
-                  class="ff_Nunito fw-bold fs_xl clr_light_black after_yellow_line position-relative"
+                  class="ff_Nunito fw-bold fs_xl clr_light_black after_yellow_line1 position-relative"
                   href="#home">
                   Home
                 </a>
@@ -23,7 +23,7 @@ function Footer() {
               <li>
                 <a
                   style={{ zIndex: "2" }}
-                  class="ff_Nunito fw-bold fs_xl clr_light_black after_yellow_line position-relative"
+                  class="ff_Nunito fw-bold fs_xl clr_light_black after_yellow_line1 position-relative"
                   href="#service">
                   Solutions
                 </a>
@@ -32,7 +32,7 @@ function Footer() {
               <li>
                 <a
                   style={{ zIndex: "2" }}
-                  class="ff_Nunito fw-bold fs_xl clr_light_black after_yellow_line position-relative"
+                  class="ff_Nunito fw-bold fs_xl clr_light_black after_yellow_line1 position-relative"
                   href="#project">
                   Cases
                 </a>
@@ -40,7 +40,7 @@ function Footer() {
               <li>
                 <a
                   style={{ zIndex: "2" }}
-                  class="ff_Nunito fw-bold fs_xl clr_light_black after_yellow_line position-relative"
+                  class="ff_Nunito fw-bold fs_xl clr_light_black after_yellow_line1 position-relative"
                   href="#about">
                   About Us
                 </a>
@@ -48,7 +48,7 @@ function Footer() {
               <li>
                 <a
                   style={{ zIndex: "2" }}
-                  class="ff_Nunito fw-bold fs_xl clr_light_black after_yellow_line position-relative"
+                  class="ff_Nunito fw-bold fs_xl clr_light_black after_yellow_line1 position-relative"
                   href="#about">
                   Blog
                 </a>
@@ -56,7 +56,7 @@ function Footer() {
               <li>
                 <a
                   style={{ zIndex: "2" }}
-                  class="ff_Nunito fw-bold fs_xl clr_light_black after_yellow_line position-relative"
+                  class="ff_Nunito fw-bold fs_xl clr_light_black after_yellow_line1 position-relative"
                   href="#about">
                   Contact Us
                 </a>

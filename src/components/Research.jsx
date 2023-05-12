@@ -11,7 +11,7 @@ function Research() {
     autpPlay: false,
     infinite: true,
     arrows: false,
-    speed: 500,
+    speed: 0,
     slidesToShow: 1,
     slidesToScroll: 1,
   };
@@ -53,8 +53,7 @@ function Research() {
                       {" "}
                       <a
                         class="get_touch_btn ff_Nunito d-inline-block fw-bold fs_xl text-white mt-4 mt-md-4"
-                        href="#about"
-                      >
+                        href="#about">
                         Read More
                       </a>
                     </span>
@@ -69,24 +68,20 @@ function Research() {
                     />
                     <div
                       style={{ zIndex: "1", position: "relative" }}
-                      className="w-75 p-2 shadow bg-white rounded-4"
-                    >
+                      className="w-75 p-2 shadow bg-white rounded-4">
                       <img className="w-100" src={studies} alt="img" />
                       <div
                         style={{ zIndex: "2" }}
-                        className="position-absolute icon_over_img p-1 d-flex bg-white rounded-5"
-                      >
+                        className="position-absolute icon_over_img p-1 d-flex bg-white rounded-5">
                         <span
                           onClick={() => MyBtn.current.slickPrev()}
                           style={{ rotate: "180deg" }}
-                          className="slider_btn cursor_pointer "
-                        >
+                          className="slider_btn cursor_pointer ">
                           <img className="right_img" src={right} alt="img" />
                         </span>
                         <span
                           onClick={() => MyBtn.current.slickNext()}
-                          className="slider_btn cursor_pointer "
-                        >
+                          className="slider_btn cursor_pointer ">
                           <img className="right_img" src={right} alt="img" />
                         </span>
                       </div>
@@ -115,8 +110,7 @@ function Research() {
                       {" "}
                       <a
                         class="get_touch_btn ff_Nunito d-inline-block fw-bold fs_xl text-white mt-4 mt-md-4"
-                        href="#about"
-                      >
+                        href="#about">
                         Read More
                       </a>
                     </span>
@@ -131,21 +125,18 @@ function Research() {
                     />
                     <div
                       style={{ zIndex: "1", position: "relative" }}
-                      className="w-75 p-2 shadow bg-white rounded-4 position-relative"
-                    >
+                      className="w-75 p-2 shadow bg-white rounded-4 position-relative">
                       <img className="w-100" src={studies} alt="img" />
                       <div className="position-absolute icon_over_img p-1 d-flex bg-white rounded-5">
                         <span
                           onClick={() => MyBtn.current.slickPrev}
                           style={{ rotate: "180deg" }}
-                          className="slider_btn cursor_pointer "
-                        >
+                          className="slider_btn cursor_pointer ">
                           <img className="right_img" src={right} alt="img" />
                         </span>
                         <span
                           onClick={() => MyBtn.current.slickNext}
-                          className="slider_btn cursor_pointer "
-                        >
+                          className="slider_btn cursor_pointer ">
                           <img className="right_img" src={right} alt="img" />
                         </span>
                       </div>

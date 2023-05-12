@@ -9,12 +9,13 @@ import Outerring from "../assets/img/svg/OuterRIng.svg";
 
 function TestiMonals() {
   var settings = {
+    fade: true,
     dots: true,
     infinite: true,
     speed: 0,
     slidesToShow: 1,
     slidesToScroll: 1,
-    arrows: true,
+    arrows: false,
   };
   const Sliderdata = [
     {
@@ -23,8 +24,8 @@ function TestiMonals() {
       image3: Logo3,
       image4: Logo4,
       image5: Logo5,
-      Pera: "  Lorem Ipsum is simply dummy text of the printing andtypesetting industry. Lorem Ipsum has been the industry'sstandard dummy text ever since the 1500s, when an unknownprinter took type scrambled it to make a type specimen book.It has survived not only five centuries,",
-      UserNAme: "  Jenny Wilson |",
+      Pera: "  Lorem Ipsum is simply dummy text of the printing andtypesetting industry. Lorem Ipsum has been the industry'sstandard dummy text ever since the 1500s, when an  took type scrambled it to make a type specimen book.It has survived not only five centuries,",
+      UserNAme: " Wilson Jenny  |",
       UserWork: "    Digital Agency",
     },
     {
