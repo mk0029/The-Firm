@@ -10,6 +10,7 @@ import Cases from "./Firmjs/Cases";
 import Details from "./Firmjs/Details";
 import Solution from "./Firmjs/Solution";
 import Digital from "./Firmjs/Digital";
+import OurCases from "./components/OurCases";
 
 function App() {
   useEffect(() => {
@@ -17,7 +18,8 @@ function App() {
   }, []);
   return (
     <div className=" overflow-hidden">
-      <Index />
+      {/* <Index /> */}
+      <OurCases />
       {/* <Cases /> */}
       {/* <Details /> */}
       {/* <Solution /> */}

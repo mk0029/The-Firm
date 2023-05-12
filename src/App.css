@@ -220,10 +220,10 @@
   box-shadow: -2px 2px 30px rgba(250, 202, 16, 0.4);
   transition: all 250ms ease-in-out;
 }
-#get .outline_none {
+.outline_none {
   outline: none;
 }
-#get .border_none {
+.border_none {
   border: none;
 }
 #get ::placeholder {
@@ -485,7 +485,75 @@
   fill: #fbcc04;
 }
 
-@media (min-width: 576px) {
+/* ourCase */
+#OurCases ::placeholder {
+  color: #c4c4c4;
+}
+#OurCases .btn_OurCases {
+  padding: 12px 14px;
+  min-width: 150px;
+  background: white;border: 2px solid #F7F7F7;
+box-shadow: 0px 10px 40px -12px rgba(196, 196, 196, 0.35);
+border-radius: 5px;
+  position: relative;
+  border-radius: 5px;
+  cursor: pointer;
+}
+#OurCases .btn_OurCases::after {
+  position: absolute;
+  content: "";
+  left: -20%;
+  top: 50%;
+  transform: translateY(-50%);
+  height: 2px;
+  width: 20%;
+  background-color: #f6f6f6;
+  transition: all 300ms ease-in-out;
+}
+#OurCases .btn_OurCases::before {
+  position: absolute;
+  content: "";
+  left: -22%;
+  top: 50%;
+  transform: translateY(-50%);
+  height: 22px;
+  width: 22px;
+  border-radius: 50%;
+  background-color: #f6f6f6;
+  transition: all 300ms ease-in-out;
+}
+#OurCases .btn_OurCases_hover {
+  color: white !important;border: 2px solid #F7F7F7;
+box-shadow: 0px 10px 40px -12px #ffcc00;
+border-radius: 5px;
+  background-color: #faca10 !important;
+  box-shadow: 0px 10px 40px -12px rgba(250, 202, 16, 0.35);
+}
+#OurCases .btn_OurCases_hover::before {
+  background-color: #faca10 !important;
+}
+#OurCases .btn_OurCases_hover::after {
+  background-color: #faca10 !important;
+}
+#OurCases.bg_gray {
+  background-color: #f6f6f6;
+}
+#OurCases .OurCases_box {
+  background: #ffffff;
+  border: 1px solid rgba(250, 202, 16, 0.4);
+  box-shadow: 0px 0px 13px rgba(0, 0, 0, 0.09);
+  border-radius: 15px;
+}
+#OurCases .OurCases_box:hover {
+  box-shadow: -2px 2px 30px rgba(250, 202, 16, 0.4);
+}
+#OurCases .width_custom__Input_OurCases {
+  width: 75%;
+}
+
+@media (min-width: 576px) {#OurCases .width_custom__Input_OurCases {
+  width: 50%;
+}
   #TestiMonials .image_2 {
     width: 112px;
     display: block;
@@ -544,6 +612,9 @@
   }
 }
 @media (min-width: 1200px) {
+  #OurCases .width_custom__Input_OurCases {
+    width: unset;
+  }
   .logo {
     width: 253px;
     height: 37px;
