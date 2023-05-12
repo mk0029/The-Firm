@@ -82,7 +82,7 @@ function TestiMonals(props) {
                 data-aos="fade-down"
                 data-aos-easing="linear"
                 data-aos-duration="1500">
-                <h2 className=" text-center ff_Nunito fs_4xxl fw_bolder clr_light_black pb-lg-4 pb-3 mb-lg-4 pb-5">
+                <h2 className=" text-center ff_Nunito fs_4xxl fw_bolder clr_light_black pb-lg-4 pb-3 mb-0 mb-lg-4 pb-md-5 pb-4">
                   Our{" "}
                   <span className=" after_yellow_line position-relative z_index2">
                     Testimonials
@@ -142,7 +142,7 @@ function TestiMonals(props) {
                         </div>
                       </div>
                       <p
-                        className="pt-4 mt-2 text-center ff_Lora fs_xl fw-normal mx-auto mb-0 pb-4"
+                        className="py-sm-4 py-3 mt-2 text-center ff_Lora fs_xl fw-normal mx-auto mb-0 "
                         data-aos="fade-right"
                         data-aos-easing="linear"
                         data-aos-duration="1500"

@@ -8,10 +8,12 @@ import TestiMonals from "../components/TestiMonals";
 import Footer from "../components/Footer";
 import Coaching from "../components/Coachiing";
 import Header from "../components/Header";
+import Loader from "../components/Loader";
 
 function Solution() {
   return (
     <>
+      <Loader timeOut="1100" />
       <Header />
       <Perfect paddingTop="pb-5" paddingLG="pb-lg-5" />
       <SolutionCoaching />

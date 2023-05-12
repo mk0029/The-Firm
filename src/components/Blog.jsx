@@ -10,7 +10,7 @@ function Blog() {
       <section className=" py-5 bg_clr__dimWhite" id="blog">
         <div className="container">
           <h2
-            className=" text-center ff_Nunito fw_bolder fs_4xxl clr_light_black mt-5 mb-sm-5 pb-md-3"
+            className=" text-center ff_Nunito fw_bolder fs_4xxl clr_light_black mt-md-5 mb-sm-5 pb-md-3"
             data-aos="fade-down"
             data-aos-easing="linear"
             data-aos-duration="1500">

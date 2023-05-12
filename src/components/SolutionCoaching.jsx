@@ -13,8 +13,7 @@ function SolutionCoaching() {
                   className="col-xl-4 col-md-6 mt-4"
                   data-aos="zoom-in"
                   data-aos-easing="linear"
-                  data-aos-duration="1500"
-                >
+                  data-aos-duration="1500">
                   <div className="pt-2 pb-4 bg-white coaching_box transition250">
                     <img className=" w-100" src={data.img} alt="blog_1" />
                     <div className="px-4">
@@ -28,8 +27,7 @@ function SolutionCoaching() {
                     <div className="d-flex justify-content-center mt-4 pt-2 pb-2">
                       <a
                         className=" ff_Nunito fw-bold fs_xl text-white btn__Main_black transition250"
-                        href="#"
-                      >
+                        href="#">
                         {data.btn}
                       </a>
                     </div>

@@ -10,11 +10,14 @@ import Blog from "../components/Blog";
 import TestiMonals from "../components/TestiMonals";
 import Footer from "../components/Footer";
 import Hero from "../components/Hero";
+import Loader from "../components/Loader";
 
 function Home() {
   return (
     <>
       <div>
+        {" "}
+        <Loader timeOut="2100" />
         <Hero />
         <OurPartner />
         <Clients />

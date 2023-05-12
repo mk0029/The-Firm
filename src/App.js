@@ -12,10 +12,11 @@ import Solution from "./Firmjs/Solution";
 import Digital from "./Firmjs/Digital";
 import { Routes, Route } from "react-router-dom";
 import BackToTop from "./components/BackToTop";
+import Loader from "./components/Loader";
 
 function App() {
   useEffect(() => {
-    AOS.init();
+    AOS.init({ once: true });
   }, []);
   return (
     <div className=" overflow-hidden">
