@@ -1,6 +1,6 @@
 import React from "react";
 import logo from "../assets/img/png/logo.png";
-
+import { Link } from "react-router-dom";
 function Footer() {
   return (
     <>
@@ -17,38 +17,49 @@ function Footer() {
             </a>
             <ul className="d-flex gap-2 gap-xl-5 list-unstyled align-items-center mb-0 justify-content-end mt-md-5 mt-4">
               <li className="">
-                <a
-                  style={{ zIndex: "2" }}
-                  class="ff_Nunito fw-bold fs_xl clr_light_black after_yellow_line1 position-relative"
-                  href="#home">
-                  Home
-                </a>
+                <Link to="/">
+                  <a
+                    style={{ zIndex: "2" }}
+                    class="ff_Nunito fw-bold fs_xl clr_light_black after_yellow_line1 position-relative"
+                    href="#home">
+                    Home
+                  </a>
+                </Link>
               </li>
 
               <li>
-                <a
-                  style={{ zIndex: "2" }}
-                  class="ff_Nunito fw-bold fs_xl clr_light_black after_yellow_line1 position-relative"
-                  href="#service">
-                  Solutions
-                </a>
+                <Link to="Solution">
+                  {" "}
+                  <a
+                    style={{ zIndex: "2" }}
+                    class="ff_Nunito fw-bold fs_xl clr_light_black after_yellow_line1 position-relative"
+                    href="#service">
+                    Solutions
+                  </a>
+                </Link>
               </li>
 
               <li>
-                <a
-                  style={{ zIndex: "2" }}
-                  class="ff_Nunito fw-bold fs_xl clr_light_black after_yellow_line1 position-relative"
-                  href="#project">
-                  Cases
-                </a>
+                <Link to="cases">
+                  {" "}
+                  <a
+                    style={{ zIndex: "2" }}
+                    class="ff_Nunito fw-bold fs_xl clr_light_black after_yellow_line1 position-relative"
+                    href="#project">
+                    Cases
+                  </a>
+                </Link>
               </li>
               <li>
-                <a
-                  style={{ zIndex: "2" }}
-                  class="ff_Nunito fw-bold fs_xl clr_light_black after_yellow_line1 position-relative"
-                  href="#about">
-                  About Us
-                </a>
+                <Link to="Details">
+                  {" "}
+                  <a
+                    style={{ zIndex: "2" }}
+                    class="ff_Nunito fw-bold fs_xl clr_light_black after_yellow_line1 position-relative"
+                    href="#about">
+                    About Us
+                  </a>
+                </Link>
               </li>
               <li>
                 <a
@@ -59,12 +70,15 @@ function Footer() {
                 </a>
               </li>
               <li>
-                <a
-                  style={{ zIndex: "2" }}
-                  class="ff_Nunito fw-bold fs_xl clr_light_black after_yellow_line1 position-relative"
-                  href="#about">
-                  Contact Us
-                </a>
+                <Link to="Digital">
+                  {" "}
+                  <a
+                    style={{ zIndex: "2" }}
+                    class="ff_Nunito fw-bold fs_xl clr_light_black after_yellow_line1 position-relative"
+                    href="#about">
+                    Contact Us
+                  </a>
+                </Link>
               </li>
             </ul>
             <div className="mt-md-5 mt-4  d-flex gap-5 pb-1">

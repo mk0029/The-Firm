@@ -11,7 +11,7 @@ import TestiMonals from "../components/TestiMonals";
 import Footer from "../components/Footer";
 import Hero from "../components/Hero";
 
-function Index() {
+function Home() {
   return (
     <>
       <div>
@@ -30,4 +30,4 @@ function Index() {
   );
 }
 
-export default Index;
+export default Home;

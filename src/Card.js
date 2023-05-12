@@ -8,6 +8,15 @@ import watch from "../src/assets/img/svg/watch.svg";
 import coaching_img from "../src/assets/img/png/Coaching.png";
 import partner_img from "../src/assets/img/png/Partner.png";
 import seo_img from "../src/assets/img/png/SEO.png";
+import Ourcase1 from "../src/assets/img/png/OurCases1.png";
+import Ourcase2 from "../src/assets/img/png/OurCases2.png";
+import Ourcase3 from "../src/assets/img/png/OurCases3.png";
+import Ourcase4 from "../src/assets/img/png/OurCases4.png";
+import Ourcase5 from "../src/assets/img/png/OurCases5.png";
+import Ourcase6 from "../src/assets/img/png/OurCases6.png";
+import Ourcase7 from "../src/assets/img/png/OurCases7.png";
+import Ourcase8 from "../src/assets/img/png/OurCases8.png";
+import Ourcase9 from "../src/assets/img/png/OurCases9.png";
 const Card = [
   {
     img: blog1,
@@ -63,6 +72,253 @@ export const Coaching = [
     heading: "SEO ",
     lorem:
       "Lorem Ipsum is simply  text of the printing and type setting industry. make a type specimen.  ",
+    btn: "Read More",
+  },
+];
+export const OurCAses = [
+  {
+    img: Ourcase1,
+    heading: "Lorem Ipsum is  ",
+    lorem:
+      "Lorem Ipsum is simply  text of the printing and type setting industry. make a type specimen. ",
+    btn: "Read More",
+  },
+  {
+    img: Ourcase2,
+    heading: "Lorem Ipsum is  ",
+    lorem:
+      "Lorem Ipsum is simply  text of the printing and type setting industry. make a type specimen. ",
+    btn: "Read More",
+  },
+  {
+    img: Ourcase3,
+    heading: "Lorem Ipsum is  ",
+    lorem:
+      "Lorem Ipsum is simply  text of the printing and type setting industry. make a type specimen. ",
+    btn: "Read More",
+  },
+  {
+    img: Ourcase4,
+    heading: "Lorem Ipsum is  ",
+    lorem:
+      "Lorem Ipsum is simply  text of the printing and type setting industry. make a type specimen. ",
+    btn: "Read More",
+  },
+  {
+    img: Ourcase5,
+    heading: "Lorem Ipsum is  ",
+    lorem:
+      "Lorem Ipsum is simply  text of the printing and type setting industry. make a type specimen. ",
+    btn: "Read More",
+  },
+  {
+    img: Ourcase6,
+    heading: "Lorem Ipsum is  ",
+    lorem:
+      "Lorem Ipsum is simply  text of the printing and type setting industry. make a type specimen. ",
+    btn: "Read More",
+  },
+  {
+    img: Ourcase7,
+    heading: "Lorem Ipsum is  ",
+    lorem:
+      "Lorem Ipsum is simply  text of the printing and type setting industry. make a type specimen. ",
+    btn: "Read More",
+  },
+  {
+    img: Ourcase8,
+    heading: "Lorem Ipsum is  ",
+    lorem:
+      "Lorem Ipsum is simply  text of the printing and type setting industry. make a type specimen. ",
+    btn: "Read More",
+  },
+  {
+    img: Ourcase9,
+    heading: "Lorem Ipsum is  ",
+    lorem:
+      "Lorem Ipsum is simply  text of the printing and type setting industry. make a type specimen. ",
+    btn: "Read More",
+  },
+];
+export const OurCAsesAll = [
+  {
+    img: Ourcase6,
+    heading: "Lorem Ipsum is  ",
+    lorem:
+      "Lorem Ipsum is simply  text of the printing and type setting industry. make a type specimen. ",
+    btn: "Read More",
+  },
+  {
+    img: Ourcase5,
+    heading: "Lorem Ipsum is  ",
+    lorem:
+      "Lorem Ipsum is simply  text of the printing and type setting industry. make a type specimen. ",
+    btn: "Read More",
+  },
+  {
+    img: Ourcase8,
+    heading: "Lorem Ipsum is  ",
+    lorem:
+      "Lorem Ipsum is simply  text of the printing and type setting industry. make a type specimen. ",
+    btn: "Read More",
+  },
+  {
+    img: Ourcase4,
+    heading: "Lorem Ipsum is  ",
+    lorem:
+      "Lorem Ipsum is simply  text of the printing and type setting industry. make a type specimen. ",
+    btn: "Read More",
+  },
+  {
+    img: Ourcase1 ,
+    heading: "Lorem Ipsum is  ",
+    lorem:
+      "Lorem Ipsum is simply  text of the printing and type setting industry. make a type specimen. ",
+    btn: "Read More",
+  },
+  {
+    img: Ourcase6,
+    heading: "Lorem Ipsum is  ",
+    lorem:
+      "Lorem Ipsum is simply  text of the printing and type setting industry. make a type specimen. ",
+    btn: "Read More",
+  },
+  {
+    img: Ourcase7,
+    heading: "Lorem Ipsum is  ",
+    lorem:
+      "Lorem Ipsum is simply  text of the printing and type setting industry. make a type specimen. ",
+    btn: "Read More",
+  },
+  {
+    img: Ourcase8,
+    heading: "Lorem Ipsum is  ",
+    lorem:
+      "Lorem Ipsum is simply  text of the printing and type setting industry. make a type specimen. ",
+    btn: "Read More",
+  },
+  {
+    img: Ourcase9,
+    heading: "Lorem Ipsum is  ",
+    lorem:
+      "Lorem Ipsum is simply  text of the printing and type setting industry. make a type specimen. ",
+    btn: "Read More",
+  },
+  {
+    img: Ourcase1,
+    heading: "Lorem Ipsum is  ",
+    lorem:
+      "Lorem Ipsum is simply  text of the printing and type setting industry. make a type specimen. ",
+    btn: "Read More",
+  },
+  {
+    img: Ourcase2,
+    heading: "Lorem Ipsum is  ",
+    lorem:
+      "Lorem Ipsum is simply  text of the printing and type setting industry. make a type specimen. ",
+    btn: "Read More",
+  },
+  {
+    img: Ourcase3,
+    heading: "Lorem Ipsum is  ",
+    lorem:
+      "Lorem Ipsum is simply  text of the printing and type setting industry. make a type specimen. ",
+    btn: "Read More",
+  },
+  {
+    img: Ourcase4,
+    heading: "Lorem Ipsum is  ",
+    lorem:
+      "Lorem Ipsum is simply  text of the printing and type setting industry. make a type specimen. ",
+    btn: "Read More",
+  },
+  {
+    img: Ourcase5,
+    heading: "Lorem Ipsum is  ",
+    lorem:
+      "Lorem Ipsum is simply  text of the printing and type setting industry. make a type specimen. ",
+    btn: "Read More",
+  },
+  {
+    img: Ourcase6,
+    heading: "Lorem Ipsum is  ",
+    lorem:
+      "Lorem Ipsum is simply  text of the printing and type setting industry. make a type specimen. ",
+    btn: "Read More",
+  },
+  {
+    img: Ourcase7,
+    heading: "Lorem Ipsum is  ",
+    lorem:
+      "Lorem Ipsum is simply  text of the printing and type setting industry. make a type specimen. ",
+    btn: "Read More",
+  },
+  {
+    img: Ourcase8,
+    heading: "Lorem Ipsum is  ",
+    lorem:
+      "Lorem Ipsum is simply  text of the printing and type setting industry. make a type specimen. ",
+    btn: "Read More",
+  },
+  {
+    img: Ourcase9,
+    heading: "Lorem Ipsum is  ",
+    lorem:
+      "Lorem Ipsum is simply  text of the printing and type setting industry. make a type specimen. ",
+    btn: "Read More",
+  },
+];
+export const OurCAsesDigital = [
+  {
+    img: Ourcase5,
+    heading: "Lorem Ipsum is  ",
+    lorem:
+      "Lorem Ipsum is simply  text of the printing and type setting industry. make a type specimen. ",
+    btn: "Read More",
+  },
+  {
+    img: Ourcase6,
+    heading: "Lorem Ipsum is  ",
+    lorem:
+      "Lorem Ipsum is simply  text of the printing and type setting industry. make a type specimen. ",
+    btn: "Read More",
+  },
+  {
+    img: Ourcase7,
+    heading: "Lorem Ipsum is  ",
+    lorem:
+      "Lorem Ipsum is simply  text of the printing and type setting industry. make a type specimen. ",
+    btn: "Read More",
+  },
+  {
+    img: Ourcase8,
+    heading: "Lorem Ipsum is  ",
+    lorem:
+      "Lorem Ipsum is simply  text of the printing and type setting industry. make a type specimen. ",
+    btn: "Read More",
+  },
+  {
+    img: Ourcase9,
+    heading: "Lorem Ipsum is  ",
+    lorem:
+      "Lorem Ipsum is simply  text of the printing and type setting industry. make a type specimen. ",
+    btn: "Read More",
+  },
+];
+export const OurCAsesSeo = [
+  {
+    img: Ourcase5,
+    heading: "Lorem Ipsum is  ",
+    lorem:
+      "Lorem Ipsum is simply  text of the printing and type setting industry. make a type specimen. ",
+    btn: "Read More",
+  },
+
+  {
+    img: Ourcase7,
+    heading: "Lorem Ipsum is  ",
+    lorem:
+      "Lorem Ipsum is simply  text of the printing and type setting industry. make a type specimen. ",
     btn: "Read More",
   },
 ];
