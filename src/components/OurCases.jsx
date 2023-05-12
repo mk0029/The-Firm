@@ -15,7 +15,7 @@ function OurCases() {
       <section id="OurCases" className=" py-5 ">
         <div className=" container">
           <div className=" py-lg-5 mb-lg-3">
-            <h2 className=" fs_4xxl fw-bold ff_Nunito text-center">
+            <h2 className=" fs_4xxl fw_bolder ff_Nunito text-center clr_light_black">
               Our
               <span className="after_yellow_line position-relative ">
                 Cases
