@@ -20,10 +20,10 @@ function App() {
     <div className=" overflow-hidden">
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="cases" element={<Cases />} />
-        <Route path="Details" element={<Details />} />
-        <Route path="Solution" element={<Solution />} />
-        <Route path="Digital" element={<Digital />} />
+        <Route path="/cases" element={<Cases />} />
+        <Route path="/Details" element={<Details />} />
+        <Route path="/Solution" element={<Solution />} />
+        <Route path="/Digital" element={<Digital />} />
       </Routes>
     </div>
   );
