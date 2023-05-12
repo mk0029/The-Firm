@@ -51,7 +51,7 @@ function Footer() {
                 </Link>
               </li>
               <li>
-                <Link to="Details">
+                <Link to="/Details">
                   {" "}
                   <a
                     style={{ zIndex: "2" }}
@@ -70,7 +70,7 @@ function Footer() {
                 </a>
               </li>
               <li>
-                <Link to="Digital">
+                <Link to="/Digital">
                   {" "}
                   <a
                     style={{ zIndex: "2" }}

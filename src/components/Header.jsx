@@ -37,7 +37,7 @@ function Header() {
               </li>
 
               <li>
-                <Link to="Solution">
+                <Link to="/Solution">
                   {" "}
                   <a
                     style={{ zIndex: "2" }}
@@ -49,7 +49,7 @@ function Header() {
               </li>
 
               <li>
-                <Link to="cases">
+                <Link to="/cases">
                   {" "}
                   <a
                     style={{ zIndex: "2" }}
@@ -60,7 +60,7 @@ function Header() {
                 </Link>
               </li>
               <li>
-                <Link to="Details">
+                <Link to="/Details">
                   {" "}
                   <a
                     style={{ zIndex: "2" }}
@@ -79,7 +79,7 @@ function Header() {
                 </a>
               </li>
               <li>
-                <Link to="Digital">
+                <Link to="/Digital">
                   {" "}
                   <a
                     style={{ zIndex: "2" }}
@@ -135,7 +135,7 @@ function Header() {
                   </Link>
                 </li>
                 <li>
-                  <Link to="Solution">
+                  <Link to="/Solution">
                     {" "}
                     <a
                       onClick={() => setNavShow(!navShow)}
@@ -147,7 +147,7 @@ function Header() {
                   </Link>
                 </li>
                 <li>
-                  <Link to="cases">
+                  <Link to="/cases">
                     {" "}
                     <a
                       onClick={() => setNavShow(!navShow)}
@@ -159,7 +159,7 @@ function Header() {
                   </Link>
                 </li>
                 <li>
-                  <Link to="Details">
+                  <Link to="/Details">
                     {" "}
                     <a
                       onClick={() => setNavShow(!navShow)}
@@ -179,7 +179,7 @@ function Header() {
                   </a>
                 </li>
                 <li>
-                  <Link to="Digital">
+                  <Link to="/Digital">
                     {" "}
                     <a
                       onClick={() => setNavShow(!navShow)}
