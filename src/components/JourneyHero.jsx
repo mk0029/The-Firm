@@ -15,10 +15,20 @@ function JourneyHero() {
           <div className="row align-items-center w-100 pt-md-4 pt-xl-5">
             <div className="col-lg-6">
               <div className="mt-lg-5 mt-xl-4 mt-lg-0 mb-xl-4">
-                <h1 className="ff_Nunito fw_bolder fs_5xl clr_light_black mb-0 mt-2 mt-xl-0 text_shadow">
+                <h1
+                  className="ff_Nunito fw_bolder fs_5xl clr_light_black mb-0 mt-2 mt-xl-0 text_shadow"
+                  data-aos="fade-down"
+                  data-aos-easing="linear"
+                  data-aos-duration="3000"
+                >
                   Our Digital Journey
                 </h1>
-                <p className=" ff_Lora fw-normal fs_xl clr_light_black mt-xl-4 mt-2 pt-sm-1 mb-0 pb-sm-2">
+                <p
+                  className=" ff_Lora fw-normal fs_xl clr_light_black mt-xl-4 mt-2 pt-sm-1 mb-0 pb-sm-2"
+                  data-aos="fade-up"
+                  data-aos-easing="linear"
+                  data-aos-duration="3000"
+                >
                   Lorem Ipsum is simply dummy text of the printing{" "}
                   <span className="d-lg-block">
                     and typesetting industry. Lorem Ipsum has been
@@ -27,7 +37,12 @@ function JourneyHero() {
                 </p>
               </div>
             </div>
-            <div className="col-lg-6 d-lg-none mt-4">
+            <div
+              className="col-lg-6 d-lg-none mt-4"
+              data-aos="fade-left"
+              data-aos-easing="linear"
+              data-aos-duration="3000"
+            >
               <div>
                 <img className="w-100" src={headerImg} alt="img" />
               </div>

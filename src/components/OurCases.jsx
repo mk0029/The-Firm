@@ -15,7 +15,12 @@ function OurCases() {
       <section id="OurCases" className=" py-5 ">
         <div className=" container">
           <div className=" py-lg-5 mb-lg-3">
-            <h2 className=" fs_4xxl fw_bolder ff_Nunito text-center clr_light_black">
+            <h2
+              className=" fs_4xxl fw_bolder ff_Nunito text-center clr_light_black"
+              data-aos="fade-down"
+              data-aos-easing="linear"
+              data-aos-duration="1500"
+            >
               Our
               <span className="after_yellow_line position-relative ">
                 Cases
@@ -23,7 +28,12 @@ function OurCases() {
             </h2>
             <div className=" d-flex flex-column-reverse flex-xl-row align-items-center justify-content-between pt-lg-5 pt-4">
               <div className="px-4 px-sm-0 d-flex gap-3 gap-sm-4 gap-xl-0 flex-wrap w-100 pe-xxl-5 pe-xl-4 me-xl-5 justify-content-center  justify-content-xl-between mt-3 mt-xl-0">
-                <span className="   pe-3 text-center me-md-4 me-xl-3 d-block d-sm-inline-block">
+                <span
+                  className="   pe-3 text-center me-md-4 me-xl-3 d-block d-sm-inline-block"
+                  data-aos="zoom-in"
+                  data-aos-easing="linear"
+                  data-aos-duration="1000"
+                >
                   <span
                     onClick={() => Setvalue(0)}
                     className={
@@ -35,7 +45,12 @@ function OurCases() {
                     Show All
                   </span>
                 </span>
-                <span className="   pe-3 text-center me-md-4 me-xl-3 d-block d-sm-inline-block">
+                <span
+                  className="   pe-3 text-center me-md-4 me-xl-3 d-block d-sm-inline-block"
+                  data-aos="zoom-in"
+                  data-aos-easing="linear"
+                  data-aos-duration="1500"
+                >
                   <span
                     onClick={() => Setvalue(1)}
                     className={
@@ -47,7 +62,12 @@ function OurCases() {
                     OurCases
                   </span>
                 </span>
-                <span className="   pe-3 text-center me-md-4 me-xl-3 d-block d-sm-inline-block">
+                <span
+                  className="   pe-3 text-center me-md-4 me-xl-3 d-block d-sm-inline-block"
+                  data-aos="zoom-in"
+                  data-aos-easing="linear"
+                  data-aos-duration="2000"
+                >
                   <span
                     onClick={() => Setvalue(2)}
                     style={{ whiteSpace: "nowrap" }}
@@ -60,7 +80,12 @@ function OurCases() {
                     Digital Partners
                   </span>
                 </span>
-                <span className="   pe-3 text-center me-md-4 me-xl-3 d-block d-sm-inline-block ">
+                <span
+                  className="   pe-3 text-center me-md-4 me-xl-3 d-block d-sm-inline-block "
+                  data-aos="zoom-in"
+                  data-aos-easing="linear"
+                  data-aos-duration="2500"
+                >
                   <span
                     onClick={() => Setvalue(3)}
                     className={
@@ -73,7 +98,12 @@ function OurCases() {
                   </span>
                 </span>
               </div>
-              <span className=" width_custom__Input_OurCases d-flex justify-content-between align-items-center  border-bottom border-2 px-3">
+              <span
+                className=" width_custom__Input_OurCases d-flex justify-content-between align-items-center  border-bottom border-2 px-3"
+                data-aos="zoom-in"
+                data-aos-easing="linear"
+                data-aos-duration="3000"
+              >
                 <input
                   className=" w-100 outline_none border_none pb-2 pe-3 ff_Nunito fw-bold fs_xl clr_grey"
                   type="text"
@@ -88,7 +118,12 @@ function OurCases() {
           <div className="row">
             {GetDAta[dataCard].map((data) => {
               return (
-                <div className="col-xl-4 col-md-6 mt-4">
+                <div
+                  className="col-xl-4 col-md-6 mt-4"
+                  data-aos="zoom-in"
+                  data-aos-easing="linear"
+                  data-aos-duration="1500"
+                >
                   <div className="pt-2 pb-4 bg-white OurCases_box transition250">
                     <img className=" w-100" src={data.img} alt="blog_1" />
                     <div className="px-4">
