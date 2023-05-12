@@ -7,9 +7,9 @@ import right from "../assets/img/svg/right.svg";
 function Partner() {
   return (
     <>
-      <section id="Partner" className="py-5">
+      <section id="Partner" className="py-md-5">
         <div className="container ">
-          <div className="row mt-md-5 py-5 pt-2 flex-column-reverse flex-md-row">
+          <div className="row mt-md-5 py-md-5 pt-2 flex-column-reverse flex-md-row">
             <div className="col-md-6 mt-4">
               <div className="d-flex justify-content-center position-relative">
                 <img
@@ -29,7 +29,9 @@ function Partner() {
                 <h3 className="ff_Nunito fw-bold fs_3xl clr_light_black mb-0">
                   Digital Partner
                 </h3>
-                <p className="ff_Lora fw-normal fs_xl clr_light_black mb-0 mt-2 pt-1">
+                <p
+                  style={{ maxWidth: "547px" }}
+                  className="ff_Lora fw-normal fs_xl clr_light_black mb-0 mt-3 pt-1">
                   Lorem Ipsum is simply dummy text of the printing and
                   typesetting industry. Lorem Ipsum has been the industry
                   standard dummy text ever since the 1500s, when an unknown
@@ -38,14 +40,6 @@ function Partner() {
                   the industry's standard dummy text ever since the 1500s, when
                   an unknown printer took.
                 </p>
-                <span>
-                  {" "}
-                  <a
-                    class="get_touch_btn ff_Nunito d-inline-block fw-bold fs_xl text-white mt-4 mt-md-4"
-                    href="#about">
-                    Read More
-                  </a>
-                </span>
               </div>
             </div>
           </div>

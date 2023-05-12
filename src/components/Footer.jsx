@@ -6,13 +6,13 @@ function Footer() {
     <>
       <section
         id="Footer"
-        className="py-4 py-md-5"
+        className=" py-5"
         data-aos="fade-down"
         data-aos-easing="linear"
         data-aos-duration="1500">
-        <div className="container">
+        <div className="container pt-lg-5">
           <div className="d-flex flex-column align-items-center">
-            <a href="#" className=" transition250">
+            <a href="#" className=" transition250 mb-3">
               <img className="logo" src={logo} alt="logo-img" />
             </a>
             <ul className="d-flex gap-2 gap-xl-5 list-unstyled align-items-center mb-0 justify-content-end mt-md-5 mt-4">
@@ -67,7 +67,7 @@ function Footer() {
                 </a>
               </li>
             </ul>
-            <div className="mt-md-5 mt-4 pt-md-3 d-flex gap-5 pb-1">
+            <div className="mt-md-5 mt-4  d-flex gap-5 pb-1">
               <a href="#" className=" transition250">
                 <svg
                   className="fill-change transition300"
@@ -149,7 +149,7 @@ function Footer() {
             </div>
             <p
               style={{ letterSpacing: "0.26em" }}
-              className="ff_Nunito fw-normal fs_sm text-center clr_grey mt-4 pt-md-3">
+              className="ff_Nunito fw-normal fs_sm text-center clr_grey mt-4 pt-md-3 mb-0">
               Copyrights ©2020 Thefirm. All Right Reserved
             </p>
           </div>

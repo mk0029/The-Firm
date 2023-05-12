@@ -18,7 +18,7 @@ function Index() {
         <Hero />
         <OurPartner />
         <Clients />
-        <Perfect />
+        <Perfect paddingTop="py-5" paddingLG="py-lg-5" />
         <ChoseUs />
         <Research />
         <Blog />

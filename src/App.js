@@ -17,11 +17,11 @@ function App() {
   }, []);
   return (
     <div className=" overflow-hidden">
-      <Index />
+      {/* <Index /> */}
       {/* <Cases /> */}
       {/* <Details /> */}
       {/* <Solution /> */}
-      {/* <Digital /> */}
+      <Digital />
     </div>
   );
 }

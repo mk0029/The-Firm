@@ -50,8 +50,8 @@ function OurPartner() {
   return (
     <>
       <section id="OurPartner" className=" py-5">
-        <div className=" container">
-          <div className=" text-center pb-5 ">
+        <div className=" container py-lg-5">
+          <div className=" text-center pb-lg-4">
             <h2
               className=" ff_Nunito fs_4xxl fw_bolder  d-inline-block mb-0 clr_light_black"
               data-aos="fade-down"

@@ -48,7 +48,7 @@ function ChoseUs() {
     <>
       <section id="Choseus" className=" bg_clr__dimWhite py-5">
         <div className=" container">
-          <div className="py-5 ">
+          <div className="py-lg-5 ">
             <h2
               className=" text-center ff_Nunito fs_4xxl fw_bolder clr_light_black pb-lg-4 pb-3 mb-0"
               data-aos="fade-down"
@@ -58,7 +58,7 @@ function ChoseUs() {
             </h2>
             <p
               style={{ maxWidth: "864px" }}
-              className=" text-center ff_Lora fs_xl fw-normal clr_light_black mx-auto mb-0 pt-1 pb-4"
+              className=" text-center ff_Lora fs_xl fw-normal clr_light_black mx-auto mb-0 pt-1 pb-xl-5 pb-4"
               data-aos="fade-right"
               data-aos-easing="linear"
               data-aos-duration="1500">
@@ -154,7 +154,7 @@ function ChoseUs() {
                         {" "}
                         <h2
                           style={{ letterSpacing: "0.02em" }}
-                          className=" ff_Nunito fw-semibold fs_3xl clr_light_black mb-0 pb-3 after_yellow_line position-relative">
+                          className=" ff_Nunito fw-semibold fs_3xl clr_light_black mb-0 pb-3 after_yellow_line position-relative z_index2">
                           {imges[active].text1}
                         </h2>
                         <p
@@ -162,7 +162,7 @@ function ChoseUs() {
                           className="  ff_Lora fs_xl fw-normal clr_light_black mb-0 ">
                           {imges[active].text2}
                         </p>
-                        <span className=" d-inline-block pt-2 pt-md-3 mt-2">
+                        <span className=" d-inline-block pt-2 pt-md-3 mt-4">
                           <a
                             className=" btn__Main_black transition300 d-inline-block bg_clr_Black"
                             href="">

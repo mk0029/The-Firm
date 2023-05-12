@@ -7,7 +7,7 @@ import Logo4 from "../assets/img/svg/Sliderimg4.svg";
 import Logo5 from "../assets/img/svg/Sliderimg5.svg";
 import Outerring from "../assets/img/svg/OuterRIng.svg";
 
-function TestiMonals() {
+function TestiMonals(props) {
   var settings = {
     fade: true,
     dots: true,
@@ -72,95 +72,98 @@ function TestiMonals() {
 
   return (
     <>
-      <section id="TestiMonials" className="py-5 ">
-        <div className=" container">
-          <div className="py-lg-5 pb-4 mb-5">
-            {" "}
-            <div
-              data-aos="fade-down"
-              data-aos-easing="linear"
-              data-aos-duration="1500">
-              <h2 className=" text-center ff_Nunito fs_4xxl fw_bolder clr_light_black pb-lg-4 pb-3 mb-0 mb-0 pb-5">
-                Our{" "}
-                <span className=" after_yellow_line position-relative">
-                  Testimonials
-                </span>
-              </h2>
-            </div>
-            <Slider {...settings} className="">
-              {Sliderdata.map((data) => {
-                return (
-                  <div>
-                    <div className="px-xl-5">
-                      <div className="d-flex justify-content-center justify-content-sm-between px-sm-5 mx-lg-5 align-items-center">
-                        <div
-                          className="image_1"
-                          data-aos="zoom-in"
-                          data-aos-easing="linear"
-                          data-aos-duration="1500">
-                          <img className="w-100" src={data.image1} alt="" />
-                        </div>
-                        <div
-                          className="image_2"
-                          data-aos="zoom-in"
-                          data-aos-easing="linear"
-                          data-aos-duration="1500">
-                          <img className="w-100" src={data.image2} alt="" />
-                        </div>
-                        <div
-                          className="image_3 position-relative z_index1 "
-                          data-aos="zoom-in"
-                          data-aos-easing="linear"
-                          data-aos-duration="1500">
-                          <img
-                            className=" position-absolute Outerring z_index2"
-                            src={Outerring}
-                            alt=""
-                          />
-                          <img
-                            className="w-100 position-relative z_index1"
-                            src={data.image3}
-                            alt=""
-                          />
-                        </div>
-                        <div
-                          className="image_2"
-                          data-aos="zoom-in"
-                          data-aos-easing="linear"
-                          data-aos-duration="1500">
-                          <img className="w-100" src={data.image4} alt="" />
-                        </div>
-                        <div
-                          className="image_1"
-                          data-aos="zoom-in"
-                          data-aos-easing="linear"
-                          data-aos-duration="1500">
-                          <img className="w-100" src={data.image5} alt="" />
+      <section id="TestiMonials" className={props.bggray}>
+        <div className="py-5">
+          {" "}
+          <div className=" container">
+            <div className="py-lg-5 pb-4 mb-5">
+              {" "}
+              <div
+                data-aos="fade-down"
+                data-aos-easing="linear"
+                data-aos-duration="1500">
+                <h2 className=" text-center ff_Nunito fs_4xxl fw_bolder clr_light_black pb-lg-4 pb-3 mb-lg-4 pb-5">
+                  Our{" "}
+                  <span className=" after_yellow_line position-relative z_index2">
+                    Testimonials
+                  </span>
+                </h2>
+              </div>
+              <Slider {...settings} className="">
+                {Sliderdata.map((data) => {
+                  return (
+                    <div>
+                      <div className="px-xl-5">
+                        <div className="d-flex justify-content-center justify-content-sm-between px-sm-5 mx-lg-5 align-items-center">
+                          <div
+                            className="image_1"
+                            data-aos="zoom-in"
+                            data-aos-easing="linear"
+                            data-aos-duration="1500">
+                            <img className="w-100" src={data.image1} alt="" />
+                          </div>
+                          <div
+                            className="image_2"
+                            data-aos="zoom-in"
+                            data-aos-easing="linear"
+                            data-aos-duration="1500">
+                            <img className="w-100" src={data.image2} alt="" />
+                          </div>
+                          <div
+                            className="image_3 position-relative z_index1 "
+                            data-aos="zoom-in"
+                            data-aos-easing="linear"
+                            data-aos-duration="1500">
+                            <img
+                              className=" position-absolute Outerring z_index2"
+                              src={Outerring}
+                              alt=""
+                            />
+                            <img
+                              className="w-100 position-relative z_index1"
+                              src={data.image3}
+                              alt=""
+                            />
+                          </div>
+                          <div
+                            className="image_2"
+                            data-aos="zoom-in"
+                            data-aos-easing="linear"
+                            data-aos-duration="1500">
+                            <img className="w-100" src={data.image4} alt="" />
+                          </div>
+                          <div
+                            className="image_1"
+                            data-aos="zoom-in"
+                            data-aos-easing="linear"
+                            data-aos-duration="1500">
+                            <img className="w-100" src={data.image5} alt="" />
+                          </div>
                         </div>
                       </div>
+                      <p
+                        className="pt-4 mt-2 text-center ff_Lora fs_xl fw-normal mx-auto mb-0 pb-4"
+                        data-aos="fade-right"
+                        data-aos-easing="linear"
+                        data-aos-duration="1500"
+                        style={{ maxWidth: "850px" }}>
+                        {data.Pera}
+                      </p>
+                      <h4
+                        className=" ff_Nunito fw-bold fs_2xl clr_light_black text-center pt-2 mb-0"
+                        data-aos="fade-left"
+                        data-aos-easing="linear"
+                        data-aos-duration="1500">
+                        {data.UserNAme}
+                        <span className=" ff_Lora fw-normal fs_lg clr_light_black">
+                          {data.UserWork}
+                        </span>
+                      </h4>
                     </div>
-                    <p
-                      className="pt-4 mt-2 text-center ff_Lora fs_xl fw-normal mx-auto mb-0 pb-4"
-                      data-aos="fade-right"
-                      data-aos-easing="linear"
-                      data-aos-duration="1500"
-                      style={{ maxWidth: "850px" }}>
-                      {data.Pera}
-                    </p>
-                    <h4
-                      className=" ff_Nunito fw-semibold fs_2xl clr_light_black text-center pt-2 mb-0"
-                      data-aos="fade-left"
-                      data-aos-easing="linear"
-                      data-aos-duration="1500">
-                      {data.UserNAme}
-                      <span className=" ff_Lora fw-normal fs_lg clr_light_black">
-                        {data.UserWork}
-                      </span>
-                    </h4>
-                  </div>
-                );
-              })}
-            </Slider>
+                  );
+                })}
+              </Slider>
+            </div>
           </div>
         </div>
       </section>
