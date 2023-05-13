@@ -6,8 +6,9 @@ function JourneyHero() {
   return (
     <>
       <section
+        style={{ maxWidth: "1920px" }}
         id="JourneyHero"
-        className="min_vh_100 d-flex flex-column bg_gray_hero position-relative"
+        className=" mx-auto min_vh_100 d-flex flex-column bg_gray_hero position-relative"
       >
         <Header />
 
@@ -43,6 +44,7 @@ function JourneyHero() {
               <div className="col-xl-7 col-6 position-absolute h-100 end-0 d-none d-xl-block">
                 <div className=" d-flex justify-content-end h-100 position-relative ">
                   <img
+                    style={{ maxWidth: "100%" }}
                     className="journey_hero_img_custom z_index1 position-relative shadow rounded-5 "
                     src={headerImg}
                     alt="headerImg"
