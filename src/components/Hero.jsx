@@ -6,7 +6,10 @@ import c_img from "../assets/img/png/C-img.png";
 function Hero() {
   return (
     <>
-      <div className=" min_vh_100 d-flex flex-column">
+      <div
+        className=" mx-auto min_vh_100 d-flex flex-column"
+        style={{ maxWidth: "1920px" }}
+      >
         <Header />
         <section
           className="hero_bg_img position-relative flex-grow-1 d-flex justify-content-center align-items-center flex-column border-top"
@@ -61,6 +64,7 @@ function Hero() {
                     alt="c_img"
                   />
                   <img
+                    style={{ maxWidth: "100%" }}
                     className="hero_img_custom z_index1 position-relative shadow rounded-5"
                     src={hero_img}
                     alt="hero_img"

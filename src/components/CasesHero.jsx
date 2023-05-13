@@ -7,7 +7,8 @@ function CasesHero() {
     <>
       <section
         id="CasesHero"
-        className="min_vh_100 d-flex flex-column bg_gray_hero position-relative"
+        style={{ maxWidth: "1920px" }}
+        className=" mx-auto min_vh_100 d-flex flex-column bg_gray_hero position-relative"
       >
         <Header />
 
@@ -112,6 +113,7 @@ function CasesHero() {
               <div className="col-xl-7 col-6 position-absolute h-100 end-0 d-none d-xl-block">
                 <div className=" d-flex justify-content-end h-100 position-relative ">
                   <img
+                    style={{ maxWidth: "100%" }}
                     className="cases_hero_img_custom z_index1 position-relative shadow rounded-5 "
                     src={cases_hero_img}
                     alt="cases_hero_img"
