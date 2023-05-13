@@ -16,7 +16,7 @@ function Header() {
         data-aos="fade-down"
         data-aos-easing="ease-in"
         data-aos-delay="300"
-        data-aos-duration="2000">
+        data-aos-duration="3000">
         <div id="Header" className="container">
           <div className="d-flex justify-content-between align-items-center w-100 pt-3 pb-2 mt-1">
             <Link to="/">
@@ -190,7 +190,7 @@ function Header() {
                     </a>
                   </Link>
                 </li>
-                <li>
+                <li className="pt-3">
                   <a
                     onClick={() => setNavShow(!navShow)}
                     class=" btn__Main_black transition300 ff_Nunito fw-bold fs_ResponciveNav clr_light_black after_yellow_line1 position-relative"

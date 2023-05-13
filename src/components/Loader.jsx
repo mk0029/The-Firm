@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 function Loader(props) {
-  const [loder, setloader] = useState(1);
+  const [loder, setloader] = useState(false);
   useEffect(() => {
     setloader(true);
     setTimeout(() => {
@@ -8,7 +8,7 @@ function Loader(props) {
     }, props.timeOut);
   }, []);
   {
-    if (loder === 0) {
+    if (loder === true) {
       document.body.style.overflow = "hidden";
       document.documentElement.scrollTop = 0;
     } else {
