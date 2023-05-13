@@ -7,16 +7,16 @@ function JourneyHero() {
     <>
       <section
         id="JourneyHero"
-        className="min_vh_100 d-flex flex-column bg_img1 pb-5 bg_gray_hero position-relative"
+        className="min_vh_100 d-flex flex-column bg_gray_hero position-relative"
       >
         <Header />
 
-        <div className="container flex-grow-1 d-flex align-items-center justify-content-center mb-xl-5 mt-4 mt-md-0">
-          <div className="row align-items-center w-100 pt-md-4 pt-xl-5">
-            <div className="col-lg-6">
-              <div className="mt-lg-5 mt-xl-4 mt-lg-0 mb-xl-4">
+        <div className=" d-flex flex-grow-1 justify-content-center align-items-center flex-column position-relative">
+          <div className="container">
+            <div className="row align-items-center">
+              <div className="col-lg-6  py-xl-0 py-5">
                 <h1
-                  className="ff_Nunito fw_bolder fs_5xl clr_light_black mb-0 mt-2 mt-xl-0 text_shadow"
+                  className=" ff_Nunito fw_bolder fs_4xxl text-black mb-0 mt-2 mt-xl-0 text_shadow z_index5 position-relative"
                   data-aos="fade-down"
                   data-aos-easing="linear"
                   data-aos-duration="3000"
@@ -24,8 +24,8 @@ function JourneyHero() {
                   Our Digital Journey
                 </h1>
                 <p
-                  className=" ff_Lora fw-normal fs_xl clr_light_black mt-xl-4 mt-2 pt-sm-1 mb-0 pb-sm-2"
-                  data-aos="fade-up"
+                  className=" ff_Lora fw-normal fs_xl clr_light_black mt-xl-3 mt-2 pt-sm-1 mb-0 pb-sm-4 pe-5 position-relative z_index5"
+                  data-aos="fade-right"
                   data-aos-easing="linear"
                   data-aos-duration="3000"
                 >
@@ -36,15 +36,17 @@ function JourneyHero() {
                   the industry's standard dummy.
                 </p>
               </div>
-            </div>
-            <div
-              className="col-lg-6 d-lg-none mt-4"
-              data-aos="fade-left"
-              data-aos-easing="linear"
-              data-aos-duration="3000"
-            >
-              <div>
-                <img className="w-100" src={headerImg} alt="img" />
+              <div className="col-lg-6 d-xl-none h-100 pb-5 pb-lg-0">
+                <img className=" w-100" src={headerImg} alt="headerImg" />
+              </div>
+              <div className="col-xl-7 col-6 position-absolute h-100 end-0 d-none d-xl-block">
+                <div className=" d-flex justify-content-end h-100 position-relative ">
+                  <img
+                    className="h-100 z_index1 position-relative shadow rounded-5 "
+                    src={headerImg}
+                    alt="headerImg"
+                  />
+                </div>
               </div>
             </div>
           </div>
