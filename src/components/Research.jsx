@@ -24,7 +24,10 @@ function Research() {
             data-aos="fade-down-right"
             data-aos-easing="linear"
             data-aos-duration="1500">
-            Our Research & Case Studies
+            Our Research & Case{" "}
+            <span className=" position-relative after_yellow_line z_index2">
+              Studies
+            </span>
           </h2>
           <p
             className="ff_Lora fw-normal fs_xl clr_light_black text-center mb-0 mt-4 pt-1"
@@ -46,7 +49,7 @@ function Research() {
             data-aos-duration="1500">
             <Slider ref={MyBtn} {...settings}>
               <div className="pb-lg-5">
-                <div className="row mt-md-3 py-lg-5 pt-2 flex-column-reverse flex-md-row">
+                <div className="row mt-md-3 pb-lg-5 pt-2 flex-column-reverse flex-md-row">
                   <div className="col-md-6 mt-4 mt-md-0">
                     <div className="d-flex justify-content-center flex-column h-100">
                       <h3 className="ff_Nunito fw-bold fs_3xl clr_light_black mb-0">

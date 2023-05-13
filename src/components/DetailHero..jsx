@@ -51,11 +51,13 @@ function DetailHero() {
                   data-aos-easing="linear"
                   data-aos-duration="3000">
                   <a
+                    style={{ whiteSpace: "nowrap" }}
                     class="get_touch_btn ff_Nunito d-inline-block fw-bold fs_2xl text-white mt-sm-3 mt-xl-4 transition300"
                     href="#about">
                     Digital Partners
                   </a>
                   <a
+                    style={{ whiteSpace: "nowrap" }}
                     class="get_touch_btn ff_Nunito d-inline-block fw-bold fs_2xl text-white mt-sm-3 mt-xl-4 transition300"
                     href="#about">
                     Coaching

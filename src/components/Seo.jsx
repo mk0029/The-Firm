@@ -47,8 +47,12 @@ function Seo() {
                   alt="img"
                 />
                 <div
-                  style={{ zIndex: "1", position: "relative" }}
-                  className="w-75 p-2 shadow bg-white rounded-4">
+                  style={{
+                    zIndex: "1",
+                    position: "relative",
+                    borderRadius: "25px",
+                  }}
+                  className="w-75 p-2 shadow bg-white ">
                   <img className="w-100" src={studies} alt="img" />
                 </div>
               </div>

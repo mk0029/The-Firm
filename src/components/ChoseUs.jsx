@@ -54,7 +54,10 @@ function ChoseUs() {
               data-aos="fade-down"
               data-aos-easing="linear"
               data-aos-duration="1500">
-              Reason to Choose Us
+              Reason to Choose{" "}
+              <span className=" position-relative after_yellow_line z_index2">
+                Us
+              </span>
             </h2>
             <p
               style={{ maxWidth: "864px" }}
@@ -90,8 +93,8 @@ function ChoseUs() {
                   style={{ cursor: "pointer" }}
                   className={
                     active === 1
-                      ? " btn_Choseus btn_Choseus_hover d-inline-block clr_dim_grey ff_Nunito fw-semibold transition300 fs_xl rounded-3"
-                      : " btn_Choseus d-inline-block clr_dim_grey ff_Nunito fw-semibold transition300 fs_xl rounded-3"
+                      ? " btn_Choseus btn_Choseus_hover d-inline-block clr_dim_grey ff_Nunito fw-semibold transition300 fs_xl rounded-3 borderCustombtn"
+                      : " btn_Choseus d-inline-block clr_dim_grey ff_Nunito fw-semibold transition300 fs_xl rounded-3 borderCustombtn"
                   }
                   onClick={() => setActive(1)}>
                   Branding

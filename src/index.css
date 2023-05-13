@@ -227,6 +227,9 @@ p {
     --fs-5xl: 35px;
     --fs-4xxl: 31px;
   }
+  .get_touch_btn {
+    padding: 7.5px 16.5px !important;
+  }
 }
 @media (min-width: 576px) {
   :root {
