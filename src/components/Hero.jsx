@@ -61,7 +61,7 @@ function Hero() {
                     alt="c_img"
                   />
                   <img
-                    className="h-100 z_index1 position-relative shadow rounded-5 "
+                    className="hero_img_custom z_index1 position-relative shadow rounded-5"
                     src={hero_img}
                     alt="hero_img"
                   />

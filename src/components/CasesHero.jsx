@@ -112,7 +112,7 @@ function CasesHero() {
               <div className="col-xl-7 col-6 position-absolute h-100 end-0 d-none d-xl-block">
                 <div className=" d-flex justify-content-end h-100 position-relative ">
                   <img
-                    className="h-100 z_index1 position-relative shadow rounded-5 "
+                    className="cases_hero_img_custom z_index1 position-relative shadow rounded-5 "
                     src={cases_hero_img}
                     alt="cases_hero_img"
                   />

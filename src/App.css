@@ -433,6 +433,7 @@
 }
 
 /* Hero */
+
 #Hero.hero_bg_img {
   background-image: url(../src/assets/img/png/hero-bg-img.png);
   background-position: center;
@@ -629,6 +630,14 @@
   }
 }
 @media (min-width: 1200px) {
+  .hero_img_custom,
+  .cases_hero_img_custom,
+  .journey_hero_img_custom {
+    height: 80%;
+    top: 50% !important;
+    transform: translateY(-50%);
+  }
+
   #OurCases .width_custom__Input_OurCases {
     width: unset;
   }
@@ -661,6 +670,12 @@
   }
 }
 @media (min-width: 1400px) {
+  .hero_img_custom,
+  .journey_hero_img_custom,
+  .cases_hero_img_custom {
+    height: 100%;
+  }
+
   #Hero .c_img_position {
     left: -5%;
     top: 25%;
@@ -702,4 +717,13 @@ textarea ::placeholder {
 }
 .fw_bolder {
   -webkit-text-stroke: 2px #1e1e1e;
+}
+@media (min-width: 1600px) {
+  .hero_img_custom,
+  .cases_hero_img_custom,
+  .journey_hero_img_custom {
+    height: 80%;
+    top: 50% !important;
+    transform: translateY(-50%);
+  }
 }
