@@ -93,7 +93,7 @@ function TestiMonals(props) {
                 {Sliderdata.map((data) => {
                   return (
                     <div>
-                      <div className="px-xl-5">
+                      <div className="px-xl-5 mx-lg-5">
                         <div className="d-flex justify-content-center justify-content-sm-between px-sm-5 mx-lg-5 align-items-center">
                           <div
                             className="image_1"

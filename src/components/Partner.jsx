@@ -7,7 +7,7 @@ import right from "../assets/img/svg/right.svg";
 function Partner() {
   return (
     <>
-      <section id="Partner" className="py-lg-5">
+      <section id="Partner" className="pt-lg-5">
         <div className="container ">
           <div className="row mt-lg-5 py-lg-5 pt-2 flex-column-reverse flex-lg-row">
             <div
@@ -22,8 +22,12 @@ function Partner() {
                   alt="img"
                 />
                 <div
-                  style={{ zIndex: "1", position: "relative" }}
-                  className="w-75 p-2 shadow bg-white rounded-4">
+                  style={{
+                    zIndex: "1",
+                    position: "relative",
+                    borderRadius: "25px",
+                  }}
+                  className="w-75 p-2 shadow bg-white ">
                   <img className="w-100" src={studies} alt="img" />
                 </div>
               </div>

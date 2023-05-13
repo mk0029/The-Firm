@@ -22,7 +22,7 @@ function Loader(props) {
       {loder ? (
         <section
           style={{ zIndex: "999999" }}
-          className=" bg-black position-fixed h-100 w-100 d-flex flex-column justify-content-center align-items-center">
+          className=" bg-black top-0 start-0 position-fixed h-100 w-100 d-flex flex-column justify-content-center align-items-center">
           {" "}
           <div class="ayoub-loader">
             <div class="loader"></div>

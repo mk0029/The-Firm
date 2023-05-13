@@ -7,7 +7,7 @@ import right from "../assets/img/svg/right.svg";
 function Coaching() {
   return (
     <>
-      <section id="Coaching" className="py-5">
+      <section id="Coaching" className="pt-5">
         <div className="container ">
           <div className="row mt-md-4  flex-lg-row pt-lg-2 ">
             <div className="col-lg-6">
@@ -47,8 +47,12 @@ function Coaching() {
                   alt="img"
                 />
                 <div
-                  style={{ zIndex: "1", position: "relative" }}
-                  className="w-75 p-2 shadow bg-white rounded-4">
+                  style={{
+                    zIndex: "1",
+                    position: "relative",
+                    borderRadius: "25px",
+                  }}
+                  className="w-75 p-2 shadow bg-white ">
                   <img className="w-100" src={studies} alt="img" />
                 </div>
               </div>

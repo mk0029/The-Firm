@@ -68,6 +68,8 @@
   min-width: 150px;
   background: white;
   position: relative;
+  border: 2px solid #f6f6f6;
+  border-radius: 5px !important;
 }
 #Choseus .btn_Choseus::after {
   position: absolute;
@@ -96,6 +98,7 @@
   color: white !important;
   background-color: #faca10 !important;
   box-shadow: 0px 10px 40px -12px rgba(250, 202, 16, 0.35);
+  border: 2px solid transparent;
 }
 #Choseus .btn_Choseus_hover::before {
   background-color: #faca10 !important;

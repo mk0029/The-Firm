@@ -27,7 +27,7 @@ function Blog() {
                   data-aos="zoom-in"
                   data-aos-easing="linear"
                   data-aos-duration="1500">
-                  <div className="pt-2 pb-4 bg-white blog_box transition250">
+                  <div className="pt-2 pb-2 bg-white blog_box transition250">
                     <img className=" w-100" src={data.img} alt="blog_1" />
                     <div className="px-4">
                       <h3 className=" mt-2 mb-0 ff_Nunito fw-bold fs_2xl clr_light_black">
@@ -64,7 +64,7 @@ function Blog() {
             })}
           </div>
           <div
-            className="d-flex justify-content-center mt-4 pt-4 mb-md-5"
+            className="d-flex justify-content-center mt-4 pt-3 mb-md-5"
             data-aos="fade-up"
             data-aos-easing="linear"
             data-aos-duration="1500">
