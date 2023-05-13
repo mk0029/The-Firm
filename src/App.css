@@ -144,16 +144,7 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-#TestiMonials .slick-dots {
-  position: absolute;
-  bottom: -25px;
-  display: block;
-  width: 100%;
-  padding: 0;
-  margin: 0;
-  list-style: none;
-  text-align: center;
-}
+
 #perfect .box_border {
   background: #ffffff;
   border: 1px solid rgba(250, 202, 16, 0.4);
