@@ -286,9 +286,6 @@
   margin-right: 2px;
   box-sizing: border-box;
 }
-#get .cursor_pointer {
-  cursor: pointer !important;
-}
 #get.get_bg_img {
   background-image: url("../src/assets/img/png/GET-bg-img.png");
   background-position: top;
