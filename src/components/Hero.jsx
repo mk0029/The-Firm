@@ -15,7 +15,12 @@ function Hero() {
           <div className="container">
             <div className="row align-items-center">
               <div className="col-lg-6  py-xl-0 py-5">
-                <h1 className=" ff_Nunito fw_bolder fs_5xl clr_light_black mb-0 text_shadow z_index5 position-relative">
+                <h1
+                  className=" ff_Nunito fw_bolder fs_5xl clr_light_black mb-0 text_shadow z_index5 position-relative"
+                  data-aos="fade-down"
+                  data-aos-easing="linear"
+                  data-aos-duration="3000"
+                >
                   Get Bussiness{" "}
                   <span className=" d-lg-block">Solutions with TheFirm.</span>
                 </h1>
