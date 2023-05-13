@@ -13,7 +13,7 @@ function DetailHero() {
           <Header />
         </div>
         <div className="container py-5">
-          <div className="row  py-lg-5   flex-md-row justify-content-between">
+          <div className="row pb-lg-5   flex-md-row justify-content-between">
             <div className="col-lg-6 ">
               <div className="d-flex justify-content-center flex-column h-100 mt-xl-5">
                 <h3
@@ -52,13 +52,13 @@ function DetailHero() {
                   data-aos-duration="3000">
                   <a
                     style={{ whiteSpace: "nowrap" }}
-                    class="get_touch_btn ff_Nunito d-inline-block fw-bold fs_2xl text-white mt-sm-3 mt-xl-4 transition300"
+                    class="get_touch_btn ff_Nunito d-inline-block fw-bold fs_2xl text-white mt-sm-3 mt-xl-4 transition300 shadow"
                     href="#about">
                     Digital Partners
                   </a>
                   <a
                     style={{ whiteSpace: "nowrap" }}
-                    class="get_touch_btn ff_Nunito d-inline-block fw-bold fs_2xl text-white mt-sm-3 mt-xl-4 transition300"
+                    class="get_touch_btn ff_Nunito d-inline-block fw-bold fs_2xl text-white mt-sm-3 mt-xl-4 transition300 shadow"
                     href="#about">
                     Coaching
                   </a>
