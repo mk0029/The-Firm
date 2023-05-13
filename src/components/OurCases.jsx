@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import search_img from "../assets/img/svg/search.svg";
-import { OurCAses } from "../Card";
+import { OurCAses, btndata } from "../Card";
 import { OurCAsesAll } from "../Card";
 import { OurCAsesDigital } from "../Card";
 import { OurCAsesSeo } from "../Card";
@@ -19,8 +19,7 @@ function OurCases() {
               className=" fs_4xxl fw_bolder ff_Nunito text-center clr_light_black"
               data-aos="fade-down"
               data-aos-easing="linear"
-              data-aos-duration="1500"
-            >
+              data-aos-duration="1500">
               Our
               <span className="after_yellow_line position-relative ">
                 Cases
@@ -32,16 +31,14 @@ function OurCases() {
                   className="   pe-3 text-center me-md-4 me-xl-3 d-block d-sm-inline-block"
                   data-aos="zoom-in"
                   data-aos-easing="linear"
-                  data-aos-duration="1000"
-                >
+                  data-aos-duration="1000">
                   <span
                     onClick={() => Setvalue(0)}
                     className={
                       dataCard === 0
                         ? " btn_OurCases btn_OurCases_hover d-inline-block clr_dim_grey ff_Nunito fw-semibold transition300 fs_xl"
                         : "btn_OurCases d-inline-block bg_clr__lightWhite clr_dim_grey ff_Nunito fw-semibold transition300 fs_xl rounded-3"
-                    }
-                  >
+                    }>
                     Show All
                   </span>
                 </span>
@@ -49,16 +46,14 @@ function OurCases() {
                   className="   pe-3 text-center me-md-4 me-xl-3 d-block d-sm-inline-block"
                   data-aos="zoom-in"
                   data-aos-easing="linear"
-                  data-aos-duration="1500"
-                >
+                  data-aos-duration="1500">
                   <span
                     onClick={() => Setvalue(1)}
                     className={
                       dataCard === 1
                         ? " btn_OurCases btn_OurCases_hover d-inline-block clr_dim_grey ff_Nunito fw-semibold transition300 fs_xl"
                         : "btn_OurCases d-inline-block bg_clr__lightWhite clr_dim_grey ff_Nunito fw-semibold transition300 fs_xl rounded-3"
-                    }
-                  >
+                    }>
                     OurCases
                   </span>
                 </span>
@@ -66,8 +61,7 @@ function OurCases() {
                   className="   pe-3 text-center me-md-4 me-xl-3 d-block d-sm-inline-block"
                   data-aos="zoom-in"
                   data-aos-easing="linear"
-                  data-aos-duration="2000"
-                >
+                  data-aos-duration="2000">
                   <span
                     onClick={() => Setvalue(2)}
                     style={{ whiteSpace: "nowrap" }}
@@ -75,8 +69,7 @@ function OurCases() {
                       dataCard === 2
                         ? " btn_OurCases btn_OurCases_hover d-inline-block clr_dim_grey ff_Nunito fw-semibold transition300 fs_xl"
                         : "btn_OurCases d-inline-block bg_clr__lightWhite clr_dim_grey ff_Nunito fw-semibold transition300 fs_xl rounded-3"
-                    }
-                  >
+                    }>
                     Digital Partners
                   </span>
                 </span>
@@ -84,16 +77,14 @@ function OurCases() {
                   className="   pe-3 text-center me-md-4 me-xl-3 d-block d-sm-inline-block "
                   data-aos="zoom-in"
                   data-aos-easing="linear"
-                  data-aos-duration="2500"
-                >
+                  data-aos-duration="2500">
                   <span
                     onClick={() => Setvalue(3)}
                     className={
                       dataCard === 3
                         ? " btn_OurCases btn_OurCases_hover d-inline-block clr_dim_grey ff_Nunito fw-semibold transition300 fs_xl"
                         : "btn_OurCases d-inline-block bg_clr__lightWhite clr_dim_grey ff_Nunito fw-semibold transition300 fs_xl rounded-3"
-                    }
-                  >
+                    }>
                     SEO
                   </span>
                 </span>
@@ -102,8 +93,7 @@ function OurCases() {
                 className=" width_custom__Input_OurCases d-flex justify-content-between align-items-center  border-bottom border-2 px-3"
                 data-aos="zoom-in"
                 data-aos-easing="linear"
-                data-aos-duration="3000"
-              >
+                data-aos-duration="3000">
                 <input
                   className=" w-100 outline_none border_none pb-2 pe-3 ff_Nunito fw-bold fs_xl clr_grey"
                   type="text"
@@ -122,8 +112,7 @@ function OurCases() {
                   className="col-xl-4 col-md-6 mt-4"
                   data-aos="zoom-in"
                   data-aos-easing="linear"
-                  data-aos-duration="1500"
-                >
+                  data-aos-duration="1500">
                   <div className="pt-2 pb-4 bg-white OurCases_box transition250">
                     <img className=" w-100" src={data.img} alt="blog_1" />
                     <div className="px-4">
@@ -137,8 +126,7 @@ function OurCases() {
                     <div className="d-flex justify-content-center mt-4 pt-2 pb-2">
                       <a
                         className=" ff_Nunito fw-bold fs_xl text-white btn__Main_black transition250"
-                        href="#"
-                      >
+                        href="#">
                         {data.btn}
                       </a>
                     </div>
@@ -146,6 +134,18 @@ function OurCases() {
                 </div>
               );
             })}
+          </div>
+
+          <div
+            className="d-flex justify-content-center mt-4 pt-4 mb-md-5"
+            data-aos="fade-up"
+            data-aos-easing="linear"
+            data-aos-duration="1500">
+            <a
+              className=" ff_Nunito fw-bold fs_xl text-white btn__Main transition250"
+              href="#">
+              {btndata[dataCard]}
+            </a>
           </div>
         </div>
       </section>

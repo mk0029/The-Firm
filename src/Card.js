@@ -170,7 +170,7 @@ export const OurCAsesAll = [
     btn: "Read More",
   },
   {
-    img: Ourcase1 ,
+    img: Ourcase1,
     heading: "Lorem Ipsum is  ",
     lorem:
       "Lorem Ipsum is simply  text of the printing and type setting industry. make a type specimen. ",
@@ -321,5 +321,11 @@ export const OurCAsesSeo = [
       "Lorem Ipsum is simply  text of the printing and type setting industry. make a type specimen. ",
     btn: "Read More",
   },
+];
+export const btndata = [
+  "Load More",
+  "Load More 2",
+  "Load More 3",
+  "Load More 4",
 ];
 export default Card;

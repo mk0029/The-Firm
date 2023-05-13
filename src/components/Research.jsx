@@ -46,7 +46,7 @@ function Research() {
             data-aos-duration="1500">
             <Slider ref={MyBtn} {...settings}>
               <div className="pb-lg-5">
-                <div className="row mt-md-3 py-5 pt-2 flex-column-reverse flex-md-row">
+                <div className="row mt-md-3 py-lg-5 pt-2 flex-column-reverse flex-md-row">
                   <div className="col-md-6 mt-4 mt-md-0">
                     <div className="d-flex justify-content-center flex-column h-100">
                       <h3 className="ff_Nunito fw-bold fs_3xl clr_light_black mb-0">

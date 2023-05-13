@@ -128,7 +128,7 @@ function Header() {
                     <a
                       onClick={() => setNavShow(!navShow)}
                       style={{ zIndex: "2" }}
-                      class="ff_Nunito fw-bold fs_xl clr_light_black after_yellow_line1 position-relative"
+                      class="ff_Nunito fw-bold fs_ResponciveNav clr_light_black after_yellow_line1 position-relative"
                       href="#home">
                       Home
                     </a>
@@ -140,7 +140,7 @@ function Header() {
                     <a
                       onClick={() => setNavShow(!navShow)}
                       style={{ zIndex: "2" }}
-                      class="ff_Nunito fw-bold fs_xl clr_light_black after_yellow_line1 position-relative"
+                      class="ff_Nunito fw-bold fs_ResponciveNav clr_light_black after_yellow_line1 position-relative"
                       href="#service">
                       Solutions
                     </a>
@@ -152,7 +152,7 @@ function Header() {
                     <a
                       onClick={() => setNavShow(!navShow)}
                       style={{ zIndex: "2" }}
-                      class="ff_Nunito fw-bold fs_xl clr_light_black after_yellow_line1 position-relative"
+                      class="ff_Nunito fw-bold fs_ResponciveNav clr_light_black after_yellow_line1 position-relative"
                       href="#project">
                       Cases
                     </a>
@@ -164,7 +164,7 @@ function Header() {
                     <a
                       onClick={() => setNavShow(!navShow)}
                       style={{ zIndex: "2" }}
-                      class="ff_Nunito fw-bold fs_xl clr_light_black after_yellow_line1 position-relative"
+                      class="ff_Nunito fw-bold fs_ResponciveNav clr_light_black after_yellow_line1 position-relative"
                       href="#about">
                       About Us
                     </a>
@@ -173,7 +173,7 @@ function Header() {
                 <li>
                   <a
                     onClick={() => setNavShow(!navShow)}
-                    class="ff_Nunito fw-bold fs_xl clr_light_black after_yellow_line1 position-relative"
+                    class="ff_Nunito fw-bold fs_ResponciveNav clr_light_black after_yellow_line1 position-relative"
                     href="#about">
                     Blog
                   </a>
@@ -184,7 +184,7 @@ function Header() {
                     <a
                       onClick={() => setNavShow(!navShow)}
                       style={{ zIndex: "2" }}
-                      class="ff_Nunito fw-bold fs_xl clr_light_black after_yellow_line1 position-relative"
+                      class="ff_Nunito fw-bold fs_ResponciveNav clr_light_black after_yellow_line1 position-relative"
                       href="#about">
                       Contact Us
                     </a>
@@ -193,7 +193,7 @@ function Header() {
                 <li>
                   <a
                     onClick={() => setNavShow(!navShow)}
-                    class="get_touch_btn ff_Nunito fw-bold fs_xl clr_light_black after_yellow_line1 position-relative"
+                    class=" btn__Main_black transition300 ff_Nunito fw-bold fs_ResponciveNav clr_light_black after_yellow_line1 position-relative"
                     href="#about">
                     Get in Touch
                   </a>
