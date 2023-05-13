@@ -20,7 +20,7 @@ function OurCases() {
               data-aos="fade-down"
               data-aos-easing="linear"
               data-aos-duration="1500">
-              Our
+              Our&nbsp;
               <span className="after_yellow_line position-relative ">
                 Cases
               </span>
