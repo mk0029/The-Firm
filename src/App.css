@@ -30,7 +30,6 @@
 }
 #OurPartner .slick-prev {
   position: absolute;
-
   width: 40px !important;
   height: 40px !important;
   background: url(./assets/img/png/Btn__Sider_Next.png) !important;
@@ -64,7 +63,6 @@
 /* Choseus */
 #Choseus .btn_Choseus {
   padding: 12px 14px;
-  /* width: 180px; */
   min-width: 150px;
   background: white;
   position: relative;
@@ -141,7 +139,6 @@
   height: 20px;
   content: "" !important;
   text-align: center;
-  /* opacity: 1 !important; */
   background-color: #faca10 !important;
   border-radius: 50% !important;
   -webkit-font-smoothing: antialiased;
@@ -545,10 +542,11 @@
   background-color: #faca10 !important;
   box-shadow: 0px 10px 40px -12px rgba(250, 202, 16, 0.35);
 }
-#OurCases .btn_OurCases_hover::before {
+#OurCases .btn_OurCases_hover::before,
+#OurCases .btn_OurCases_hover::after {
   background-color: #faca10 !important;
 }
-#OurCases .btn_OurCases_hover::after {
+ {
   background-color: #faca10 !important;
 }
 #OurCases.bg_gray {
@@ -619,9 +617,7 @@
   #perfect .transform_translet_x {
     transform: translateX(30px);
   }
-  /* #get .transform_translet_y {
-    transform: translateY(20%);
-  } */
+
   #get.get_bg_img {
     background-image: url(../src/assets/img/png/GET-bg-img.png);
     background-position: top;
